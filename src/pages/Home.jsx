@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <HeroSlider />
 
-      <section className="bg-white">
+      <section className="bg-[#DB5A44]">
         <div className="max-w-6xl mx-auto px-4 -mt-10 relative z-10">
           <div className="grid md:grid-cols-4 gap-4">
             <Card title="Vision">

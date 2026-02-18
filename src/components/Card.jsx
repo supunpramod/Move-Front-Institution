@@ -5,7 +5,12 @@ export default function Card({
 }) {
   return (
     <div
-      className={`bg-[#AEDB44] border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition ${className}`}
+      className={`bg-[#AEDB44] rounded-xl p-6 
+hover:shadow-xl hover:-translate-y-1 
+hover:scale-[1.02] 
+transition-all duration-300 ease-out 
+${className}`}
+
     >
       {title && (
         <h3 className="text-lg font-semibold text-slate-900 mb-3">

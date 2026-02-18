@@ -59,7 +59,7 @@ export default function NavbarMega() {
                   ` py-2 rounded-xl text-sm font-medium transition ${
                     isActive
                       ? "text-brand-700"
-                      : "text-slate-700 hover:bg-slate-100"
+                      : "text-black  hover:text-slate-500"
                   }`
                 }
               >

@@ -85,13 +85,7 @@ export default function NavbarMega() {
             </div>
           ))}
 
-          {/* Donate Button */}
-          <NavLink
-            to="/contact"
-            className="ml-3 px-4 py-2 rounded-2xl bg-brand-600 text-white text-sm font-semibold hover:bg-brand-700 transition"
-          >
-            Donate / Partner
-          </NavLink>
+         
         </nav>
 
         {/* Mobile Hamburger */}

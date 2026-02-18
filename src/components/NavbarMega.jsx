@@ -50,13 +50,13 @@ export default function NavbarMega() {
         </NavLink>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex items-center gap-2">
+        <nav className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
             <div key={item.label} className="relative group">
               <NavLink
                 to={item.to}
                 className={({ isActive }) =>
-                  `px-3 py-2 rounded-xl text-sm font-medium transition ${
+                  ` py-2 rounded-xl text-sm font-medium transition ${
                     isActive
                       ? "text-brand-700"
                       : "text-slate-700 hover:bg-slate-100"

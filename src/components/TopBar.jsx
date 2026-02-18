@@ -1,4 +1,12 @@
 import { Phone, Mail } from "lucide-react";
+import { 
+  FaFacebookF, 
+  FaYoutube, 
+  FaInstagram, 
+  FaLinkedinIn, 
+  FaTwitter, 
+  FaTiktok 
+} from "react-icons/fa";
 
 
 export default function TopBar() {
@@ -21,10 +29,33 @@ export default function TopBar() {
 
 </div>
         </div>
-        <div className="flex gap-3">
-          <a className="hover:underline" href="#" aria-label="facebook">Facebook</a>
-          <a className="hover:underline" href="#" aria-label="youtube">YouTube</a>
-        </div>
+        <div className="flex gap-4 text-white text-base">
+
+  <a href="#" aria-label="Facebook" className="hover:text-blue-600 transition">
+    <FaFacebookF />
+  </a>
+
+  <a href="#" aria-label="YouTube" className="hover:text-red-600 transition">
+    <FaYoutube />
+  </a>
+
+  <a href="#" aria-label="Instagram" className="hover:text-pink-500 transition">
+    <FaInstagram />
+  </a>
+
+  <a href="#" aria-label="LinkedIn" className="hover:text-blue-700 transition">
+    <FaLinkedinIn />
+  </a>
+
+  <a href="#" aria-label="Twitter" className="hover:text-sky-500 transition">
+    <FaTwitter />
+  </a>
+
+  <a href="#" aria-label="TikTok" className="hover:text-black transition">
+    <FaTiktok />
+  </a>
+
+</div>
       </div>
     </div>
   );

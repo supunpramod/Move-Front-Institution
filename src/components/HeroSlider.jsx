@@ -7,7 +7,7 @@ const slides = [
     description:
       "Holistic transformation of women, men, youth and disadvantaged communities.",
     image:
-      "https://images.unsplash.com/photo-1520975958225-401b921f061c?auto=format&fit=crop&w=1600&q=60",
+      "https://th.bing.com/th/id/R.237c5279c9af51fe144c3634bc1ca5dc?rik=UC9KC8EMKcDMmA&pid=ImgRaw&r=0",
   },
   {
     title: "Promoting Gender Equality",

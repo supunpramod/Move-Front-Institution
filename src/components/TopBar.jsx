@@ -31,7 +31,7 @@ export default function TopBar() {
         </div>
         <div className="flex gap-4 text-white text-base">
 
-  <a href="#" aria-label="Facebook" className="hover:text-blue-600 transition">
+  <a href="https://web.facebook.com/profile.php?id=61558851387887"  aria-label="Facebook" className="hover:text-blue-600 transition">
     <FaFacebookF />
   </a>
 

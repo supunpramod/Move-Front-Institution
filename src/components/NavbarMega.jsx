@@ -42,10 +42,10 @@ export default function NavbarMega() {
           </div>
           <div>
             <div className="font-bold text-sm md:text-base">
-              Move Front Institution
+              Move Front 
             </div>
             <div className="text-xs text-slate-500">
-              Community Development
+              Life Changing Innovations
             </div>
           </div>
         </NavLink>

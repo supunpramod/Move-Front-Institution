@@ -34,26 +34,61 @@ export default function Home() {
       <Section title="Introduction" subtitle="Move Front Institution (MFI)">
         <div className="rounded-2xl border border-slate-200 bg-white p-6">
           <p className="text-slate-700 text-sm leading-relaxed">
-            Move Front Institution is a social development organization (registration in process) that facilitates
-            community change towards total development. Our main focus is to provide a holistic transformation of women,
-            men, children, youth and disadvantaged communities through training, empowerment, livelihood and exposure to
-            life-changing innovations.
-          </p>
+            Move Front institution is a social development organization on process of registration as a non-forfeitable organization in Sri Lanka.  We facilitate community change towards a total development. Our main focus is on the To provide a holistic transformation of Women, Men, child, youth and disadvantaged communities by offering training, empowerment, livelihood and exposure to life-changing innovations in
+Holistic approach. We endeavors to create an environment that allows the fulfillment of the rights of every individual, family, and society. Currently Move Front institution operating in community intervention in 03 district and 24 villages, Puttlam, Gampaha and Nuwaraeliya. We strive to reduce the impact of inequality of gender, and gender base violence towards creating a peaceful, happy, and healthy environment within the community. 
 
-          <div className="mt-5 flex flex-wrap gap-3">
+
+
+          </p>
+       <br/>
+
+            <p className="text-slate-700 text-sm leading-relaxed">
+            As an organization that works to empower the people to be their own facilitators for change, Move Front institution treats the mobilization of community members and the civil society with utmost importance. While supporting existing community-based organizations, at the community, district, and national level, one of the key steps in our programme involves setting up our own community-based organizations in our selected programme locations. These organizations are made up of individuals who actively participate in transforming their communities, bringing about a healthy environment conducive to social development. All programmes, activities and events are designed and implemented with the participation of community-based organizations (CBOs). 
+          </p><br>
+          </br>
+             <p className="text-slate-700 text-sm leading-relaxed">
+     MFI components namely, livelihood development, gender equality, women empowerment and development, Strengthening Community based organizations through right base approach full fill the needs of major areas capacity building, human trafficking, Pace building, environment reconciliation.  Move Front institution work involves working in coordination with Community based Organizations and women, children, and youth groups and individuals in each divisional secretariat and district, as well as with various government and nongovernmental organizations and agencies in advocating for and contributing to the local government implementation activities and policies.
+          </p>
+       <br/>
+
+       <p className="text-slate-700 text-sm leading-relaxed">
+            As an organization that works to empower the people to be their own facilitators for change, Move Front institution treats the mobilization of community members and the civil society with utmost importance. While supporting existing community-based organizations, at the community, district, and national level, one of the key steps in our programme involves setting up our own community-based organizations in our selected programme locations. These organizations are made up of individuals who actively participate in transforming their communities, bringing about a healthy environment conducive to social development. All programmes, activities and events are designed and implemented with the participation of community-based organizations (CBOs). 
+          </p><br>
+          </br>
+             <p className="text-slate-700 text-sm leading-relaxed">
+Move Front institutions at the forefront of one of the latest ventures of the government and non-governmental networks which is the establishment of divisional and district alliances of Community based organizations. These are collectives of Community based organizations that allow for proper coordination of Community based activities in the relevant areas in order to optimize the services provided to the people.          </p>
+       <br/>
+
+       <p className="text-slate-700 text-sm leading-relaxed">
+Move Front also work in coordination with various government and nongovernmental organizations and agencies and various network’s supporting them to advocate for, and contribute, to the local government implementation of policies gender equality and gender base violence reduction. The government and nongovernmental organizations currently involved divisional, district and nationally.  Ministry of women and child affairs, Ministry of Health and Sri Lanka alcohol policy alliance (SLPA) We Effect, Healthy Lanka alliance for development, Safe foundation US aid project Etc.          </p>       <br/>
+
+
+<p className="text-slate-700 text-sm leading-relaxed">
+Additionally, we recognize environment and ecological agriculture major crosscutting issues related understand that tackling issues is thus necessary in reducing poverty and its related problems. Our programmes therefore include as key areas of interest, the empowerment of women & man and children & youths and the protection and promotion of their rights. We hope that our efforts would greatly assist the government and nongovernmental institutions and organizations in alleviating poverty and social development. We also hope that our community level interventions would be instrumental in helping the people of Sri Lanka develop as healthy, productive, and valuable citizens of the country.</p>
+
+       
+
+       
+
+
+          
+
+          
+
+          {/* <div className="mt-5 flex flex-wrap gap-3">
             <Link
               to="/about"
-              className="px-5 py-3 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold"
+              className="px-5 py-3 rounded-2xl border bg-brand-600 hover:bg-brand-700 text-black text-sm font-semibold"
             >
               Read More
             </Link>
             <Link
               to="/contact"
-              className="px-5 py-3 rounded-2xl border border-slate-300 hover:bg-slate-50 text-sm font-semibold"
+              className="px-5 py-3 rounded-2xl border border-slate-300 hover:bg-slate-50 text-sm font-semibold text-black"
             >
               Contact Us
             </Link>
-          </div>
+          </div> */}
         </div>
       </Section>
 

@@ -22,8 +22,9 @@ const navItems = [
       { label: "Environment", to: "/what-we-do#env" },
     ],
   },
-  { label: "Where We Work", to: "/where-we-work" },
-  { label: "Funding & Reports", to: "/funding-reports" },
+  { label: "Resources", to: "/where-we-work" },
+  { label: "Archive", to: "/funding-reports" },
+  { label: "Media Room", to: "/funding-reports" },
   { label: "Contact", to: "/contact" },
 ];
 

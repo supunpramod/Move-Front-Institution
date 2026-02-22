@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import pic1 from "../assets/pic1.png";
 import pic2 from "../assets/pic2.png";
 import pic3 from "../assets/pic3.png";
+import pic4 from "../assets/pic4.png";
+import pic5 from "../assets/pic5.png";
+import pic6 from "../assets/pic6.png";
 
 const slides = [
   {
@@ -27,6 +30,27 @@ const slides = [
       "Building skills, income opportunities and community resilience.",
     image:
       pic3,
+  },
+  {
+    title: "Empowering Communities",
+    description:
+      "Holistic transformation of women, men, youth and disadvantaged communities.",
+    image:
+      pic4,
+  },
+  {
+    title: "Promoting Gender Equality",
+    description:
+      "Advocating for equal rights, safe spaces and women empowerment.",
+    image:
+      pic5,
+  },
+  {
+    title: "Sustainable Livelihood Development",
+    description:
+      "Building skills, income opportunities and community resilience.",
+    image:
+      pic6,
   },
 ];
 

@@ -1,27 +1,32 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+
+import pic1 from "../assets/pic1.png";
+import pic2 from "../assets/pic2.png";
+import pic3 from "../assets/pic3.png";
+
 const slides = [
   {
     title: "Empowering Communities",
     description:
       "Holistic transformation of women, men, youth and disadvantaged communities.",
     image:
-      "https://th.bing.com/th/id/R.237c5279c9af51fe144c3634bc1ca5dc?rik=UC9KC8EMKcDMmA&pid=ImgRaw&r=0",
+      pic1,
   },
   {
     title: "Promoting Gender Equality",
     description:
       "Advocating for equal rights, safe spaces and women empowerment.",
     image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=60",
+      pic2,
   },
   {
     title: "Sustainable Livelihood Development",
     description:
       "Building skills, income opportunities and community resilience.",
     image:
-      "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1600&q=60",
+      pic3,
   },
 ];
 

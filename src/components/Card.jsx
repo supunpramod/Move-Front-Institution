@@ -5,7 +5,7 @@ export default function Card({
 }) {
   return (
     <div
-      className={`bg-[#D4A373] rounded-xl p-6 
+      className={`bg-[#ADE652] rounded-xl p-6 
 hover:shadow-xl hover:-translate-y-1 
 hover:scale-[1.02] 
 transition-all duration-300 ease-out 

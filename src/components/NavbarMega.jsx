@@ -32,7 +32,7 @@ export default function NavbarMega() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="bg-[#AEDB44] border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <header className="bg-[#9CAF88] border-b border-slate-200 sticky top-0 z-50 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
 
         {/* Logo */}

@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -23,13 +25,27 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="font-semibold text-white">Contact</div>
-          <div className="mt-3 text-sm text-white space-y-2">
-            <div>📍 No 310, Oruwella Road, Katuneriya, Sri Lanka</div>
-            <div>📞 031 2252610 / 0777559177 / 0712007295</div>
-            <div>✉️ chamika1969@gmail.com</div>
-          </div>
-        </div>
+  <div className="font-semibold text-white text-lg">Contact</div>
+
+  <div className="mt-3 text-sm text-white space-y-3">
+    
+    <div className="flex items-start gap-3">
+      <FaMapMarkerAlt className="text-[#ffc121] mt-1" />
+      <span>No 310, Oruwella Road, Katuneriya, Sri Lanka</span>
+    </div>
+
+    <div className="flex items-center gap-3">
+      <FaPhoneAlt className="text-[#ffc121]" />
+      <span>031 2252610 / 0777559177 / 0712007295</span>
+    </div>
+
+    <div className="flex items-center gap-3">
+      <MdEmail className="text-[#ffc121] text-lg" />
+      <span>chamika1969@gmail.com</span>
+    </div>
+
+  </div>
+</div>
       </div>
 
       <div className="border-t border-slate-200">

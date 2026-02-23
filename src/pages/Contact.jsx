@@ -18,7 +18,7 @@ export default function Contact() {
     <Section title="Contact" subtitle="Get in touch with Move Front Institution (MFI)">
       <div className="grid md:grid-cols-2 gap-4">
         <Card title="Main Contact">
-          <div className="space-y-2 text-sm text-white">
+          <div className="space-y-2 text-sm text-[#475569]">
             <p><span className="font-semibold">Address:</span> No 310 Oruwella Road Katuneriya Sri Lanka</p>
             <p><span className="font-semibold">Telephone:</span> 031 2252610, 0777559177, 0712007295</p>
             <p><span className="font-semibold">Fax:</span> Not yet</p>

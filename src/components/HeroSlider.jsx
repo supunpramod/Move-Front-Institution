@@ -101,7 +101,7 @@ export default function HeroSlider() {
 
             <Link
               to="/contact"
-              className="px-6 py-3 border text-[#1c2674] border-[#ffc121] rounded-xl text-sm font-semibold bg-[#ffc121] hover:bg-transparent hover:text-white transition"
+              className="px-6 py-3 border text-[#1c2674] border-[#ffc121] rounded-lg text-sm font-semibold bg-[#ffc121] hover:bg-transparent hover:text-white transition"
             >
               Contact Us
             </Link>

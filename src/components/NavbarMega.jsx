@@ -32,7 +32,7 @@ export default function NavbarMega() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="bg-[#f37d30] border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <header className="bg-[#1c2674] border-b border-slate-200 sticky top-0 z-50 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
 
         {/* Logo */}
@@ -41,10 +41,10 @@ export default function NavbarMega() {
             M
           </div>
           <div>
-            <div className="font-bold text-sm md:text-base">
+            <div className="font-bold text-sm md:text-base text-white">
               Move Front 
             </div>
-            <div className="text-xs text-slate-500">
+            <div className="text-xs text-white">
               Life Changing Innovations
             </div>
           </div>
@@ -59,8 +59,8 @@ export default function NavbarMega() {
                 className={({ isActive }) =>
                   ` py-2 rounded-xl text-sm font-medium transition ${
                     isActive
-                      ? "text-brand-700"
-                      : "text-black  hover:text-slate-500"
+                      ? "text-white"
+                      : "text-white  hover:text-slate-500"
                   }`
                 }
               >
@@ -70,7 +70,7 @@ export default function NavbarMega() {
               {/* Dropdown */}
               {item.children && (
                 <div className="absolute left-0 top-full pt-2 hidden group-hover:block">
-                  <div className="w-60 bg-white border border-slate-200 rounded-2xl shadow-lg p-2">
+                  <div className="w-60 bg-[#ffc121] border border-slate-200 rounded-xl shadow-lg p-2">
                     {item.children.map((child) => (
                       <NavLink
                         key={child.label}

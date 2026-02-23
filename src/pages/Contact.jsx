@@ -18,7 +18,7 @@ export default function Contact() {
     <Section title="Contact" subtitle="Get in touch with Move Front Institution (MFI)">
       <div className="grid md:grid-cols-2 gap-4">
         <Card title="Main Contact">
-          <div className="space-y-2 text-sm text-slate-700">
+          <div className="space-y-2 text-sm text-white">
             <p><span className="font-semibold">Address:</span> No 310 Oruwella Road Katuneriya Sri Lanka</p>
             <p><span className="font-semibold">Telephone:</span> 031 2252610, 0777559177, 0712007295</p>
             <p><span className="font-semibold">Fax:</span> Not yet</p>
@@ -79,7 +79,16 @@ export default function Contact() {
           0769768554<br />
           ranjalafernando@outlook.com
         </Card>
+
+
+        <Section title="Registration Details">
+        <Card title="Companies Act Registration">
+          Process to register under the Companies Act, No 7 of 2007, with Registrar General of Companies.
+        </Card>
+      </Section>
       </div>
     </Section>
+
+    
   );
 }

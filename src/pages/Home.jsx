@@ -111,7 +111,7 @@ Additionally, we recognize environment and ecological agriculture major crosscut
           ].map((t) => (
             <div
               key={t}
-              className="rounded-2xl border border-slate-200 p-6 hover:shadow-md transition bg-white"
+              className="rounded-2xl border border-slate-200 p-6 hover:shadow-md transition bg-[#ffc121]"
             >
               <h3 className="font-semibold">{t}</h3>
               <p className="text-sm text-slate-600 mt-2">

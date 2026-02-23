@@ -7,7 +7,7 @@ export default function About() {
       <Section title="About Us" subtitle="Move Front Institution (MFI)">
         <div className="grid md:grid-cols-2 gap-4">
           <Card title="Introduction">
-            Move Front Institution is a social development organization on process of registration as a non-forfeitable
+            Move Front is a social development organization on process of registration as a non-forfeitable
             organization in Sri Lanka. We facilitate community change towards total development, focusing on holistic
             transformation of women, men, children, youth and disadvantaged communities through training, empowerment,
             livelihood and exposure to life-changing innovations.
@@ -48,11 +48,7 @@ export default function About() {
         </div>
       </Section>
 
-      <Section title="Registration Details">
-        <Card title="Companies Act Registration">
-          Process to register under the Companies Act, No 7 of 2007, with Registrar General of Companies.
-        </Card>
-      </Section>
+      
     </>
   );
 }

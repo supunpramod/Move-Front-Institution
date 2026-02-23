@@ -70,7 +70,7 @@ export default function NavbarMega() {
               {/* Dropdown */}
               {item.children && (
                 <div className="absolute left-0 top-full pt-2 hidden group-hover:block">
-                  <div className="w-60 bg-[#ffc121] border border-slate-200 rounded-lg shadow-lg p-2">
+                  <div className="w-60 bg-[#ffc121] border border-slate-700 rounded-lg shadow-lg p-2">
                     {item.children.map((child) => (
                       <NavLink
                         key={child.label}

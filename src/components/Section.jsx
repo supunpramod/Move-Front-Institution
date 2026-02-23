@@ -13,13 +13,13 @@ export default function Section({
         {(title || subtitle) && (
           <div className="mb-10 text-center">
             {title && (
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#f37d30]">
                 {title}
               </h2>
             )}
 
             {subtitle && (
-              <p className="text-slate-600 mt-3 max-w-2xl mx-auto text-sm md:text-base">
+              <p className="text-slate-600 mt-1 max-w-2xl mx-auto text-sm md:text-base">
                 {subtitle}
               </p>
             )}

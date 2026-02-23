@@ -25,7 +25,7 @@ const navItems = [
   { label: "Resources", to: "/where-we-work" },
   { label: "Archive", to: "/funding-reports" },
   { label: "Media Room", to: "/funding-reports" },
-  { label: "Contact", to: "/contact" },
+  { label: "Contact Us", to: "/contact" },
 ];
 
 export default function NavbarMega() {
@@ -92,7 +92,7 @@ export default function NavbarMega() {
         {/* Mobile Hamburger */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden text-slate-700 text-2xl"
+          className="md:hidden text-white text-2xl"
         >
           ☰
         </button>

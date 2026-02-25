@@ -61,7 +61,7 @@ export default function NavbarMega() {
               <NavLink
                 to={item.to}
                 className={({ isActive }) =>
-                  `py-2 rounded-xl text-sm font-semibold transition relative
+                  `py-1 rounded-xl text-sm font-semibold transition relative
                    ${
                      isActive
                        ? "text-[#ffc121]"

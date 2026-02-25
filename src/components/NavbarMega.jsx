@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.jpeg";
 
 const navItems = [
   { label: "Home", to: "/" },
@@ -37,11 +38,15 @@ export default function NavbarMega() {
 
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-2xl bg-brand-600 text-white grid place-items-center font-bold">
-            M
-          </div>
+   <div className="h-12 w-29  bg-brand-600 flex items-center justify-center px-2">
+  <img 
+    src={logo} 
+    alt="MFI Logo" 
+    className="h-full w-auto object-contain rounded-lg"
+  />
+</div>
           <div>
-            <div className="font-bold text-sm md:text-base text-white">
+            <div className="font-bold text-xl md:text-xl text-white">
               Move Front 
             </div>
             <div className="text-xs text-white">

@@ -13,14 +13,7 @@ export default function Home() {
      
 
 
-      <Section title="Main Objective" subtitle="What we aim to achieve">
-        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-          <p className="text-slate-700 text-sm leading-relaxed">
-            To provide a holistic transformation of women, men, child, youth and disadvantaged communities by offering
-            training, empowerment, livelihood and exposure to life-changing innovations.
-          </p>
-        </div>
-      </Section>
+      
 
       <Section title="Our Focus Areas" subtitle="Core components">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">

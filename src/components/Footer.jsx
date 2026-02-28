@@ -12,6 +12,11 @@ export default function Footer() {
             MFI is a social development organization (registration in process) facilitating community change
             towards total development, focusing on women, men, children, youth and disadvantaged communities.
           </p>
+
+          <div className="font-bold text-lg text-white mt-5">Companies Act Registration</div>
+          <p className="text-sm text-white mt-2 max-w-md">
+            Process to register under the Companies Act, No 7 of 2007, with Registrar General of Companies.
+          </p>
         </div>
 
         <div>

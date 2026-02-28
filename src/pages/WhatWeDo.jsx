@@ -17,24 +17,7 @@ const subObjectives = [
 export default function WhatWeDo() {
   return (
     <>
-      <Section title="What We Do" subtitle="Core components and areas we work on">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <Card title="Livelihood Development">
-            Holistic livelihood development with awareness, skill building and stakeholder engagement.
-          </Card>
-          <Card title="Gender Equality">
-            Advocacy and community action for equality and reduction of gender-based violence.
-          </Card>
-          <Card title="Women Empowerment & Development">
-            Empowering women through safety, health, leadership and economic opportunities.
-          </Card>
-          <Card title="Strengthening CBOs">
-            Rights-based approach to strengthen community organizations and alliances.
-          </Card>
-        </div>
-      </Section>
-
-      <Section title="Main Objective">
+<Section title="Main Objective">
         <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
           <p className="text-slate-700 text-sm leading-relaxed">
             To provide a holistic transformation of women, men, child, youth and disadvantaged communities by offering
@@ -52,6 +35,28 @@ export default function WhatWeDo() {
           </ul>
         </div>
       </Section>
+
+
+
+
+      <Section title="What We Do" subtitle="Core components and areas we work on">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <Card title="Livelihood Development">
+            Holistic livelihood development with awareness, skill building and stakeholder engagement.
+          </Card>
+          <Card title="Gender Equality">
+            Advocacy and community action for equality and reduction of gender-based violence.
+          </Card>
+          <Card title="Women Empowerment & Development">
+            Empowering women through safety, health, leadership and economic opportunities.
+          </Card>
+          <Card title="Strengthening CBOs">
+            Rights-based approach to strengthen community organizations and alliances.
+          </Card>
+        </div>
+      </Section>
+
+      
     </>
   );
 }

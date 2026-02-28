@@ -81,11 +81,7 @@ export default function Contact() {
         </Card>
 
 
-        <Section title="Registration Details">
-        <Card title="Companies Act Registration">
-          Process to register under the Companies Act, No 7 of 2007, with Registrar General of Companies.
-        </Card>
-      </Section>
+       
       </div>
     </Section>
 

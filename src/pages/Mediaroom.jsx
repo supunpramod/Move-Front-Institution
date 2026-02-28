@@ -13,6 +13,9 @@ import fb11 from "../assets/fb11.jpg";
 import fb12 from "../assets/fb12.jpg";
 import fb13 from "../assets/fb13.jpg";
 import fb14 from "../assets/fb14.jpg";
+import fb15 from "../assets/fb15.jpg";
+import fb16 from "../assets/fb16.jpg";
+import fb17 from "../assets/fb17.jpg";
 
 
 /* Section 1 Images */
@@ -44,6 +47,13 @@ const floodSupportImages = [
   { src: fb12, alt: "Flood-Affected Children Support - 2" },
   { src: fb13, alt: "Flood-Affected Children Support - 3" },
   { src: fb14, alt: "Flood-Affected Children Support - 4" },
+];
+
+const organicProjectImages = [
+ 
+  { src: fb15, alt: "Student Award Ceremony - 2" },
+  { src: fb16, alt: "School Model Organic Garden - 3" },
+  { src: fb17, alt: "School Model Organic Garden - 4" },
 ];
 
 export default function Mediaroom() {
@@ -199,6 +209,56 @@ export default function Mediaroom() {
         In addition, the programme has initiated a model project on strengthening
         ethnic and religious reconciliation in the Katana and Negombo Divisional
         Secretariat areas of the Gampaha District.
+      </p>
+    </div>
+
+  </div>
+</Section>
+
+{/* ================= Section 5 ================= */}
+<Section title="Empowering Young Leaders – Organic Home Gardening Development Programme">
+  <div >
+
+    {/* Images (Remove if not needed) */}
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {organicProjectImages.map((img) => (
+        <div key={img.src} className="overflow-hidden rounded-lg shadow-md">
+          <img
+            src={img.src}
+            alt={img.alt}
+            loading="lazy"
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      ))}
+    </div>
+
+    {/* Description */}
+    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+      <p>
+        Move Front and the Kibo Alliance are jointly implementing an 
+        Organic Home Gardening Development Programme aimed at empowering 
+        young students through sustainable agricultural practices.
+      </p>
+
+      <p>
+        Out of 76 participants, three students who demonstrated excellence 
+        as outstanding young organic farmers were selected and awarded 
+        cash prizes of Rs. 10,000, Rs. 7,500, and Rs. 5,000 respectively 
+        to support their educational needs and purchase school supplies.
+      </p>
+
+      <p>
+        The project seeks to enhance children’s skills in organic farming 
+        while also contributing to the prevention of child abuse, improving 
+        mental well-being, reducing stress, and fostering happiness, 
+        confidence, and leadership qualities.
+      </p>
+
+      <p>
+        In addition, a model organic gardening project has been initiated 
+        within the school to ensure the sustainability and long-term 
+        impact of this initiative.
       </p>
     </div>
 

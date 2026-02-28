@@ -7,11 +7,7 @@ const navItems = [
   {
     label: "About Us",
     to: "/about",
-    children: [
-      { label: "Who We Are", to: "/about" },
-      { label: "Vision & Mission", to: "/about#vision" },
-      { label: "Organization", to: "/organization" },
-    ],
+    
   },
   {
     label: "What We Do",
@@ -25,7 +21,7 @@ const navItems = [
   },
   { label: "Resources", to: "/where-we-work" },
   { label: "Archive", to: "/funding-reports" },
-  { label: "Media Room", to: "/funding-reports" },
+  { label: "Media Room", to: "/mediaroom" },
   { label: "Contact Us", to: "/contact" },
 ];
 

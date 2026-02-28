@@ -7,9 +7,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import WhatWeDo from "./pages/WhatWeDo";
 import WhereWeWork from "./pages/WhereWeWork";
-import Organization from "./pages/Organization";
+
 import Funding from "./pages/Funding";
 import Contact from "./pages/Contact";
+import Mediaroom from "./pages/Mediaroom";
 
 
 export default function App() {
@@ -24,8 +25,9 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/what-we-do" element={<WhatWeDo />} />
           <Route path="/where-we-work" element={<WhereWeWork />} />
-          <Route path="/organization" element={<Organization />} />
+         
           <Route path="/funding-reports" element={<Funding />} />
+          <Route path="/mediaroom" element={<Mediaroom />} />
           <Route path="/contact" element={<Contact />} />
           
         </Routes>

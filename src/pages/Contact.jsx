@@ -63,20 +63,20 @@ export default function Contact() {
       <div className="mt-6 grid md:grid-cols-3 gap-4">
         <Card title="Executive Manager">
           Jayasinghe Arachchige Chamika<br />
-          0777559177 / 0712007295<br />
+          
           chamika1969@gmail.com<br />
           chamika@healthylanka.lk
         </Card>
 
         <Card title="Chairperson">
           Medahenegedara Nilushini Karunadasa<br />
-          0769727505<br />
+          
           nilushimovefront@gmail.com
         </Card>
 
         <Card title="Secretary">
           Ranjala Fernando<br />
-          0769768554<br />
+          
           ranjalafernando@outlook.com
         </Card>
 

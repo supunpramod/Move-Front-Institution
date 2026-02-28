@@ -85,13 +85,7 @@ export default function Funding() {
         </div>
       </Section>
 
-      <Section title="Downloads">
-        <div className="grid md:grid-cols-3 gap-4">
-          <Card title="Annual Report">Add PDF link later</Card>
-          <Card title="Project Briefs">Add PDF link later</Card>
-          <Card title="Financial Statements">Add PDF link later</Card>
-        </div>
-      </Section>
+      
     </>
   );
 }

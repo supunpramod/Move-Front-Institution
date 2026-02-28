@@ -6,7 +6,7 @@ export default function Section({
   className = "",
 }) {
   return (
-    <section id={id} className={`py-14 ${className}`}>
+    <section id={id} className={`py-10 ${className}`}>
       <div className="max-w-6xl mx-auto px-4">
 
         {/* Title Area */}

@@ -1,45 +1,24 @@
 import Section from "../components/Section";
 import Card from "../components/Card";
 
-const subObjectives = [
-  "Support ecological agriculture and promote community-level measures to protect the environment such as recycling waste and reducing the carbon foot print",
-  "Mobilize resources and establish educational opportunities for vulnerable people especially children, youth, women, differently-abled people",
-  "Develop technical capacity of people in advocating for gender equality, child rights, peace building and social cohesion",
-  "Ensure women are safe, healthy and protected in all spaces",
-  "Ensure livelihood development for vulnerable communities and all ethnic groups",
-  "Facilitate access to government extension service by powerless people",
-  "Support community-led initiatives with a focus on sustainable development",
-  "Build capacities and sensitize women and children on sexual reproductive health, rights and other preventable viral illnesses like HIV and chronic hepatitis",
-  "Build CSO capacities and promote collaboration between public and private stakeholders",
-  "Initiate, facilitate and strengthen the collective effort of civil society",
-];
+ const places = [
+    { name: "Puttalam", note: "Community interventions (villages included in programme locations)." },
+    { name: "Gampaha", note: "Community interventions (villages included in programme locations)." },
+    { name: "Nuwara Eliya", note: "Community interventions (villages included in programme locations)." },
+    { name: "Colombo", note: "Coordination / networking and national-level collaboration." },
+  ];
 
 export default function WhatWeDo() {
   return (
     <>
-<Section title="Main Objective">
-        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-          <p className="text-slate-700 text-sm leading-relaxed">
-            To provide a holistic transformation of women, men, child, youth and disadvantaged communities by offering
-            training, empowerment, livelihood and exposure to life-changing innovations.
-          </p>
-        </div>
-      </Section>
-
-      <Section title="Sub Objectives" subtitle="What we deliver through our programmes">
-        <div className="rounded-2xl border border-slate-200 bg-white p-6">
-          <ul className="list-disc ml-5 space-y-2 text-sm text-slate-700">
-            {subObjectives.map((s) => (
-              <li key={s}>{s}</li>
-            ))}
-          </ul>
-        </div>
-      </Section>
 
 
+<h1 className="text-3xl md:text-4xl font-bold text-[#1c2674] text-center  mt-10">
+        What We Do
+      </h1>
 
 
-      <Section title="What We Do" subtitle="Core components and areas we work on">
+      <Section title="Core components and areas we work on" subtitle=" ">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           <Card title="Livelihood Development">
             Holistic livelihood development with awareness, skill building and stakeholder engagement.
@@ -55,6 +34,56 @@ export default function WhatWeDo() {
           </Card>
         </div>
       </Section>
+
+      <Section title="Where We Work" subtitle="Geographic coverage">
+            <div className="grid md:grid-cols-2 gap-4">
+              {places.map((p) => (
+                <Card key={p.name} title={p.name}>
+                  {p.note}
+                </Card>
+              ))}
+            </div>
+      
+            <div className="mt-6 rounded-2xl border border-slate-200 p-6 bg-slate-50">
+              <p className="text-slate-700 text-sm">
+                Current operations: 03 districts and 24 villages (Puttalam, Gampaha, Nuwara Eliya). Coordination in Colombo.
+              </p>
+            </div>
+          </Section>
+
+
+      
+
+      
+
+      <Section title="Ongoing Projects">
+  <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+    <ul className="list-disc pl-5 text-slate-700 text-sm leading-relaxed space-y-3">
+      
+      <li>
+        <strong>UNOPS Projects</strong> – In collaboration with VRIDDHI, 
+        focusing on strengthening ethnic and religious peace and reconciliation.
+      </li>
+
+      <li>
+        <strong>KIBO Alliance – America</strong> – Promoting child rights and 
+        child development for adolescent children.
+      </li>
+
+      <li>
+        <strong>Asian Rural Institute – Japan</strong> – Working on organic 
+        agriculture and reduction of global warming.
+      </li>
+
+      <li>
+        <strong>Healthy Lanka Alliance for Development – Norway</strong> – 
+        Programs on alcohol and drug prevention, child rights, gender equality, 
+        and mental health development.
+      </li>
+
+    </ul>
+  </div>
+</Section>
 
       
     </>

@@ -15,7 +15,12 @@ export default function Contact() {
   }
 
   return (
-    <Section title="Contact" subtitle="Get in touch with Move Front Institution (MFI)">
+    <div>
+<h1 className="text-3xl md:text-4xl font-bold text-[#1c2674] text-center  mt-10">
+        Contact Us
+      </h1>
+
+    <Section title="Contact" subtitle="Get in touch with us">
       <div className="grid md:grid-cols-2 gap-4">
         <Card title="Main Contact">
           <div className="space-y-2 text-sm text-[#475569]">
@@ -85,6 +90,6 @@ export default function Contact() {
       </div>
     </Section>
 
-    
+    </div>
   );
 }

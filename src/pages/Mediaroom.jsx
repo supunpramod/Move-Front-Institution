@@ -31,7 +31,7 @@ export default function Mediaroom() {
 
       {/* ================= Section 1 ================= */}
       <Section title="Harmony in Diversity – Thai Pongal Peace Initiative">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div >
 
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {pongalImages.map((img) => (
@@ -60,7 +60,7 @@ export default function Mediaroom() {
 
       {/* ================= Section 2 ================= */}
       <Section title="Strengthening Community Ties – Reconciliation Dialogue">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div>
 
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {reconciliationImages.map((img) => (

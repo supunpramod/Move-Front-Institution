@@ -19,7 +19,7 @@ export default function Section({
             )}
 
             {subtitle && (
-              <p className="text-slate-600 mt-1 max-w-2xl mx-auto text-sm md:text-base">
+              <p className="text-white mt-1 max-w-2xl mx-auto text-sm md:text-base">
                 {subtitle}
               </p>
             )}

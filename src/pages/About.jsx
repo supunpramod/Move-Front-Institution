@@ -39,8 +39,8 @@ export default function About() {
       </Section>
 
 
-<Section title="Main Objective" className="bg-white">
-        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+<Section title="Main Objective" className="bg-secondary ">
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 ">
           <p className="text-slate-700 text-sm leading-relaxed">
             To provide a holistic transformation of women, men, child, youth and disadvantaged communities by offering
             training, empowerment, livelihood and exposure to life-changing innovations.
@@ -48,7 +48,7 @@ export default function About() {
         </div>
       </Section>
 
-      <Section title="Sub Objectives" subtitle="What we deliver through our programmes">
+      <Section title="Sub Objectives" subtitle="What we deliver through our programmes" className="bg-secondary">
         <div className="rounded-2xl border border-slate-200 bg-white p-6">
           <ul className="list-disc ml-5 space-y-2 text-sm text-slate-700">
             {subObjectives.map((s) => (

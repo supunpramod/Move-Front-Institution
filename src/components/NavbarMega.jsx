@@ -107,10 +107,10 @@ export default function NavbarMega() {
         {/* Mobile Hamburger */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden text-white text-2xl rounded-xl px-3 py-2 hover:bg-white/10 active:bg-white/15 transition"
+          className="md:hidden text-primary text-4xl   rounded-xl  hover:bg-white/10 active:bg-white/15 transition"
           aria-label="Toggle menu"
         >
-          {mobileOpen ? "✕" : "☰"}
+          {mobileOpen ? "☰" : "☰"}
         </button>
       </div>
 
@@ -127,7 +127,7 @@ export default function NavbarMega() {
                     `block px-3 py-3 text-sm font-semibold transition
                      ${
                        isActive
-                         ? "bg-[#1c2674] text-white"
+                         ? "bg-primary text-white"
                          : "bg-slate-100 text-slate-800 hover:bg-slate-200"
                      }`
                   }

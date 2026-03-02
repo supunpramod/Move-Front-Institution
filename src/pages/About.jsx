@@ -22,11 +22,11 @@ export default function About() {
     <div className="bg-white">
 
     
-      <h1 className="text-3xl md:text-4xl font-bold text-accent text-center  p-10">
+      <h1 className="text-3xl md:text-4xl font-bold text-accent text-center  pt-10">
         About Us
       </h1>
 
-      <Section id="vision" title="Vision & Mission" className="bg-accent/30">
+      <Section id="vision" title="Vision & Mission" className="bg-white">
         <div className="grid md:grid-cols-2 gap-4">
           <Card title="Vision">
             Empowering powerless individuals by making them independent towards fulfilling sustainable change.

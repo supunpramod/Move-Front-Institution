@@ -5,7 +5,7 @@ export default function Card({
 }) {
   return (
     <div
-      className={`bg-white border border-secondary rounded-xl p-6 
+      className={`bg-white  rounded-xl p-6 
 hover:shadow-xl hover:-translate-y-1 
 hover:scale-[1.02] 
 transition-all duration-300 ease-out 

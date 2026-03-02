@@ -19,14 +19,14 @@ const subObjectives = [
 
 export default function About() {
   return (
-    <>
+    <div className="bg-white">
 
     
-      <h1 className="text-3xl md:text-4xl font-bold text-accent text-center  mt-10">
+      <h1 className="text-3xl md:text-4xl font-bold text-accent text-center  p-10">
         About Us
       </h1>
 
-      <Section id="vision" title="Vision & Mission">
+      <Section id="vision" title="Vision & Mission" className="bg-accent/30">
         <div className="grid md:grid-cols-2 gap-4">
           <Card title="Vision">
             Empowering powerless individuals by making them independent towards fulfilling sustainable change.
@@ -39,7 +39,7 @@ export default function About() {
       </Section>
 
 
-<Section title="Main Objective">
+<Section title="Main Objective" className="bg-white">
         <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
           <p className="text-slate-700 text-sm leading-relaxed">
             To provide a holistic transformation of women, men, child, youth and disadvantaged communities by offering
@@ -103,6 +103,6 @@ export default function About() {
       </Section>
 
       
-    </>
+    </div>
   );
 }

@@ -36,7 +36,7 @@ export default function Footer() {
     
     <div className="flex items-start gap-3">
       <FaMapMarkerAlt className="text-white mt-1" />
-      <span>No 310, Oruwella Road, Katuneriya, Sri Lanka</span>
+      <span>No 310, Oruwella Road, Katuneriya, Sri Lanka.</span>
     </div>
 
     <div className="flex items-center gap-3">
@@ -53,7 +53,7 @@ export default function Footer() {
 </div>
       </div>
 
-      <div className="border-t border-slate-200">
+      <div className="border-t border-slate-200 bg-primary">
         <div className="max-w-6xl mx-auto px-4 py-4 text-sm text-white flex flex-col sm:flex-row gap-2 sm:justify-between">
           <p>© {new Date().getFullYear()} Copyright © 2026 Techtwo Bee Pvt. Ltd. All Rights Reserved</p>
           <p className="text-white">Established: 19/02/2026</p>

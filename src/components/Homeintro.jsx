@@ -4,7 +4,7 @@ export default function Homeintro() {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <section className="bg-primary">
+    <section className="bg-primary/70">
       <div className="mx-auto max-w-6xl px-4 py-14">
         <div className="grid gap-10 lg:grid-cols-12">
           {/* Left column */}
@@ -14,7 +14,7 @@ export default function Homeintro() {
             </h2>
 
             {/* First paragraph - always visible */}
-            <p className="mt-6 text-black text-sm leading-relaxed text-justify bg-white p-8 rounded-xl">
+            <p className="mt-6 text-fon text-sm leading-relaxed text-justify bg-white p-8 rounded-xl">
               Move Front is a social development organization on process of
               registration as a non-forfeitable organization in Sri Lanka. We
               facilitate community change towards a total development. Our main
@@ -73,7 +73,7 @@ export default function Homeintro() {
             <div className="lg:col-span-12">
               <div className="mt-2 rounded-xl  bg-white p-6">
                 <div className="space-y-4">
-                  <p className="text-slate-700 text-sm leading-relaxed text-justify">
+                  <p className="text-slate-600 text-sm leading-relaxed text-justify">
                     As an organization that works to empower the people to be
                     their own facilitators for change, Move Front institution
                     treats the mobilization of community members and the civil

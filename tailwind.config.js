@@ -10,6 +10,7 @@ export default {
         primary: "#81C35F",
         secondary: "#1578A5",
         accent: "#EA5C67",
+        fon:"#475569",
       },
     },
   },

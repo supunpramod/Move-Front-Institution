@@ -60,11 +60,11 @@ export default function NavbarMega() {
                   `py-1 rounded-xl text-sm font-semibold transition relative
                    ${
                      isActive
-                       ? "text-[#81C35F]"
-                       : "text-[#81C35F] hover:text-[#EA5C67]"
+                       ? "text-secondary"
+                       : "text-secondary hover:text-[#EA5C67]"
                    }
                    after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:rounded-full
-                   after:bg-[#1578A5] after:scale-x-0 after:origin-left after:transition
+                   after:bg-accent after:scale-x-0 after:origin-left after:transition
                    ${isActive ? "after:scale-x-100" : "group-hover:after:scale-x-100"}`
                 }
               >

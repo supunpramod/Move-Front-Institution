@@ -17,6 +17,26 @@ import fb15 from "../assets/fb15.jpg";
 import fb16 from "../assets/fb16.jpg";
 import fb17 from "../assets/fb17.jpg";
 
+import fb18 from "../assets/fb18.jpg";
+import fb19 from "../assets/fb19.jpg";
+import fb20 from "../assets/fb20.jpg";
+
+import fb21 from "../assets/fb21.jpg";
+import fb22 from "../assets/fb22.jpg";
+import fb23 from "../assets/fb23.jpg";
+import fb24 from "../assets/fb24.jpg";
+
+import fb25 from "../assets/fb25.jpg";
+import fb26 from "../assets/fb26.jpg";
+import fb27 from "../assets/fb27.jpg";
+import fb28 from "../assets/fb28.jpg";
+import fb29 from "../assets/fb29.jpg";
+import fb30 from "../assets/fb30.jpg";
+
+import fb31 from "../assets/fb31.jpg";
+import fb32 from "../assets/fb32.jpg";
+import fb33 from "../assets/fb33.jpg";
+
 
 /* Section 1 Images */
 const pongalImages = [
@@ -56,6 +76,39 @@ const organicProjectImages = [
   { src: fb17, alt: "School Model Organic Garden - 4" },
 ];
 
+
+const childDevelopmentImages = [
+  { src: fb18, alt: "Child Development Programme 1" },
+  { src: fb19, alt: "School Uniform Distribution 1" },
+  { src: fb20, alt: "Selananda School Programme" },
+];
+
+const childRightsImages = [
+  { src: fb21, alt: "Child Rights Monitoring Visit 1" },
+  { src: fb22, alt: "St Anne School Project Monitoring" },
+  { src: fb23, alt: "Rooftop Organic Farming Project" },
+  { src: fb24, alt: "Student Engagement in Organic Farming" },
+];
+
+const soilTrainingImages = [
+  { src: fb25, alt: "Vermi Compost Training Session" },
+  { src: fb26, alt: "Fish Tonic and Fruit Tonic Preparation" },
+  { src: fb27, alt: "Rice Husk Charcoal & Compost Making Activity" },
+];
+
+
+const leadershipProgrammeImages = [
+  { src: fb28, alt: "Leadership Training Session" },
+  { src: fb29, alt: "Child Rights Awareness Programme" },
+  { src: fb30, alt: "Organic Farming Promotion Activity" },
+];
+
+
+const safeMigrationImages = [
+  { src: fb31, alt: "Safe Migration Awareness Session" },
+  { src: fb32, alt: "Community Discussion on Human Trafficking Prevention" },
+  { src: fb33, alt: "Distribution of Awareness Materials" },
+];
 export default function Mediaroom() {
   return (
     <div>
@@ -259,6 +312,252 @@ export default function Mediaroom() {
         In addition, a model organic gardening project has been initiated 
         within the school to ensure the sustainability and long-term 
         impact of this initiative.
+      </p>
+    </div>
+
+  </div>
+</Section>
+
+
+{/* ================= Section 6 ================= */}
+<Section title="Supporting Education & Child Development – Selananda School Initiative">
+  <div>
+
+    {/* Images */}
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {childDevelopmentImages.map((img) => (
+        <div key={img.src} className="overflow-hidden rounded-lg shadow-md">
+          <img
+            src={img.src}
+            alt={img.alt}
+            loading="lazy"
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      ))}
+    </div>
+
+    {/* Description */}
+    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+      <p>
+        A Child Development Programme was successfully conducted at 
+        Selananda School, Kirimatiyana, Wennappuwa with the objective 
+        of supporting children’s educational and personal growth.
+      </p>
+
+      <p>
+        As part of this initiative, school uniforms were distributed 
+        among selected students to ensure they are well-prepared and 
+        confident in continuing their academic journey.
+      </p>
+
+      <p>
+        The programme focused on enhancing children’s self-esteem, 
+        motivation, discipline, and overall development while 
+        promoting equal opportunities in education.
+      </p>
+
+      <p>
+        This initiative reflects the commitment to strengthening 
+        child welfare, supporting vulnerable families, and creating 
+        a positive learning environment within the community.
+      </p>
+    </div>
+
+  </div>
+</Section>
+
+{/* ================= Section 7 ================= */}
+<Section title="Child Rights Protection & Rooftop Organic Farming – Project Monitoring Initiative">
+  <div>
+
+    {/* Images */}
+    <div className="  mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {childRightsImages.map((img) => (
+        <div key={img.src} className="overflow-hidden rounded-lg shadow-md">
+          <img
+            src={img.src}
+            alt={img.alt}
+            loading="lazy"
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      ))}
+    </div>
+
+    {/* Description */}
+    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+      <p>
+        Move Front conducted a project monitoring visit at St. Anne School 
+        as part of the Child Rights Protection Programme, ensuring that 
+        activities implemented under the initiative continue to support 
+        the safety, well-being, and holistic development of children.
+      </p>
+
+      <p>
+        The monitoring process focused on evaluating progress, identifying 
+        challenges, and strengthening child protection mechanisms within 
+        the school environment.
+      </p>
+
+      <p>
+        In addition, special attention was given to the Rooftop Organic 
+        Farming Project implemented at the school, which promotes 
+        sustainable agriculture, environmental awareness, and practical 
+        learning opportunities for students.
+      </p>
+
+      <p>
+        This initiative reflects Move Front’s commitment to integrating 
+        child protection with environmental sustainability and skill 
+        development, fostering responsible and empowered young leaders.
+      </p>
+    </div>
+
+  </div>
+</Section>
+
+
+{/* ================= Section 8 ================= */}
+<Section title="Soil Conservation & Ecological Agriculture Training – Kurana St. Anne School">
+  <div>
+
+    {/* Images */}
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {soilTrainingImages.map((img) => (
+        <div key={img.src} className="overflow-hidden rounded-lg shadow-md">
+          <img
+            src={img.src}
+            alt={img.alt}
+            loading="lazy"
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      ))}
+    </div>
+
+    {/* Description */}
+    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+      <p>
+        A comprehensive training programme on soil conservation was conducted 
+        for the children of Kurana St. Anne School, aiming to promote ecological 
+        agriculture and climate change reduction practices.
+      </p>
+
+      <p>
+        The programme included practical demonstrations and hands-on activities 
+        such as vermi compost production, preparation of fish tonic and fruit tonic, 
+        kitchen garbage composting, and rice husk charcoal making.
+      </p>
+
+      <p>
+        Through these activities, students were encouraged to develop a positive 
+        attitude toward sustainable farming methods and environmentally friendly 
+        agricultural practices.
+      </p>
+
+      <p>
+        This initiative strengthens environmental awareness among children while 
+        empowering them with practical knowledge to contribute to soil conservation 
+        and long-term ecological sustainability.
+      </p>
+    </div>
+
+  </div>
+</Section>
+
+
+{/* ================= Section 9 ================= */}
+<Section title="Leadership & Child Rights Awareness Programme – Mudukatuwa Village">
+  <div>
+
+    {/* Images */}
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {leadershipProgrammeImages.map((img) => (
+        <div key={img.src} className="overflow-hidden rounded-lg shadow-md">
+          <img
+            src={img.src}
+            alt={img.alt}
+            loading="lazy"
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      ))}
+    </div>
+
+    {/* Description */}
+    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+      <p>
+        A comprehensive training programme on leadership development and 
+        the promotion of organic farming was conducted in Mudukatuwa village 
+        under the Nattandiya Divisional Secretariat Division.
+      </p>
+
+      <p>
+        The programme also focused on protecting children's rights and 
+        enhancing awareness among children within the child society, 
+        empowering them to actively participate in community development.
+      </p>
+
+      <p>
+        Through interactive sessions and practical guidance, children 
+        were encouraged to build leadership qualities, strengthen teamwork, 
+        and develop responsible attitudes toward sustainable agriculture.
+      </p>
+
+      <p>
+        This initiative contributes to nurturing confident young leaders 
+        while promoting child protection, social responsibility, and 
+        environmentally friendly practices at the community level.
+      </p>
+    </div>
+
+  </div>
+</Section>
+
+
+{/* ================= Section 10 ================= */}
+<Section title="Safe Migration & Anti-Human Trafficking Public Awareness Campaign">
+  <div>
+
+    {/* Images */}
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {safeMigrationImages.map((img) => (
+        <div key={img.src} className="overflow-hidden rounded-lg shadow-md">
+          <img
+            src={img.src}
+            alt={img.alt}
+            loading="lazy"
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      ))}
+    </div>
+
+    {/* Description */}
+    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+      <p>
+        A public awareness campaign was conducted to promote safe migration 
+        practices and reduce the risks associated with human trafficking 
+        within vulnerable communities.
+      </p>
+
+      <p>
+        The campaign focused on educating individuals about legal migration 
+        procedures, identifying potential trafficking threats, and understanding 
+        their rights and responsibilities when seeking employment abroad.
+      </p>
+
+      <p>
+        Awareness sessions, community discussions, and informational materials 
+        were used to strengthen knowledge and encourage informed decision-making 
+        among youth and families.
+      </p>
+
+      <p>
+        This initiative contributes to protecting vulnerable populations, 
+        preventing exploitation, and fostering safer migration pathways 
+        through increased public awareness and community engagement.
       </p>
     </div>
 

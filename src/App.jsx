@@ -11,13 +11,15 @@ import WhereWeWork from "./pages/WhereWeWork";
 import Funding from "./pages/Funding";
 import Contact from "./pages/Contact";
 import Mediaroom from "./pages/Mediaroom";
-
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-white text-slate-900">
       <TopBar />
       <NavbarMega />
+
+      <ScrollToTop />
 
       <main className="flex-1">
         <Routes>

@@ -4,17 +4,17 @@ export default function Homeintro() {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <section className="bg-white">
+    <section className="bg-primary">
       <div className="mx-auto max-w-6xl px-4 py-14">
         <div className="grid gap-10 lg:grid-cols-12">
           {/* Left column */}
           <div className="lg:col-span-4">
-            <h2 className="text-4xl font-extrabold tracking-tight text-primary">
+            <h2 className="text-4xl font-extrabold tracking-tight text-white">
               Move Front
             </h2>
 
             {/* First paragraph - always visible */}
-            <p className="mt-6 text-slate-700 text-sm leading-relaxed text-justify">
+            <p className="mt-6 text-black text-sm leading-relaxed text-justify bg-white p-8 rounded-xl">
               Move Front is a social development organization on process of
               registration as a non-forfeitable organization in Sri Lanka. We
               facilitate community change towards a total development. Our main
@@ -71,7 +71,7 @@ export default function Homeintro() {
           {/* ✅ Expanded content goes UNDER BOTH columns */}
           {showMore && (
             <div className="lg:col-span-12">
-              <div className="mt-2 rounded-lg border border-slate-200 bg-slate-50 p-6">
+              <div className="mt-2 rounded-xl  bg-white p-6">
                 <div className="space-y-4">
                   <p className="text-slate-700 text-sm leading-relaxed text-justify">
                     As an organization that works to empower the people to be
@@ -154,13 +154,13 @@ export default function Homeintro() {
 
 function FeatureCard({ icon, title, text }) {
   return (
-    <div className="relative min-h-[190px] rounded-lg border border-secondary bg-white p-8">
+    <div className="relative min-h-[190px] rounded-xl  bg-white p-8">
       <div className="flex gap-6">
         <div className="mt-1 flex h-14 w-14 items-center justify-center">
           {icon}
         </div>
         <div>
-          <h3 className="text-xl font-extrabold leading-snug text-primary">
+          <h3 className="text-xl font-extrabold leading-snug text-secondary">
             {title}
           </h3>
           <p className="mt-3 text-[14px] leading-7 text-slate-600">{text}</p>

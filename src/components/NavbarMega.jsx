@@ -29,7 +29,7 @@ export default function NavbarMega() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="bg-[#1c2674] border-b border-white/10 sticky top-0 z-50 shadow-lg shadow-black/10">
+    <header className="bg-white border-b border-white/10 sticky top-0 z-50 shadow-lg shadow-black/10">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-3 group">
@@ -41,10 +41,10 @@ export default function NavbarMega() {
             />
           </div>
           <div>
-            <div className="font-extrabold tracking-wide text-xl md:text-xl text-white group-hover:text-[#ffc121] transition">
+            <div className="font-extrabold tracking-wide text-xl md:text-xl text-[#81C35F] group-hover:text-[#ffc121] transition">
               Move Front
             </div>
-            <div className="text-xs text-white/80">
+            <div className="text-xs text-secondary">
               Life Changing Innovations
             </div>
           </div>
@@ -60,11 +60,11 @@ export default function NavbarMega() {
                   `py-1 rounded-xl text-sm font-semibold transition relative
                    ${
                      isActive
-                       ? "text-[#ffc121]"
-                       : "text-white/90 hover:text-[#ffc121]"
+                       ? "text-[#81C35F]"
+                       : "text-[#81C35F] hover:text-[#EA5C67]"
                    }
                    after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:rounded-full
-                   after:bg-[#ffc121] after:scale-x-0 after:origin-left after:transition
+                   after:bg-[#1578A5] after:scale-x-0 after:origin-left after:transition
                    ${isActive ? "after:scale-x-100" : "group-hover:after:scale-x-100"}`
                 }
               >

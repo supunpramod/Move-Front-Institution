@@ -9,7 +9,7 @@ export default function Homeintro() {
         <div className="grid gap-10 lg:grid-cols-12">
           {/* Left column */}
           <div className="lg:col-span-4">
-            <h2 className="text-4xl font-extrabold tracking-tight text-slate-900">
+            <h2 className="text-4xl font-extrabold tracking-tight text-primary">
               Move Front
             </h2>
 
@@ -33,9 +33,9 @@ export default function Homeintro() {
             {/* Button (only here) */}
             <button
               onClick={() => setShowMore((s) => !s)}
-              className="mt-8 inline-flex items-center justify-center rounded-lg bg-slate-700 px-10 py-4 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400"
+              className="mt-8 inline-flex items-center justify-center rounded-lg bg-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800  "
             >
-              {showMore ? "READ LESS" : "READ MORE"}
+              {showMore ? "Read Less" : "Read More"}
             </button>
           </div>
 
@@ -154,13 +154,13 @@ export default function Homeintro() {
 
 function FeatureCard({ icon, title, text }) {
   return (
-    <div className="relative min-h-[190px] rounded-lg border border-rose-200 bg-white p-8">
+    <div className="relative min-h-[190px] rounded-lg border border-secondary bg-white p-8">
       <div className="flex gap-6">
         <div className="mt-1 flex h-14 w-14 items-center justify-center">
           {icon}
         </div>
         <div>
-          <h3 className="text-xl font-extrabold leading-snug text-slate-900">
+          <h3 className="text-xl font-extrabold leading-snug text-primary">
             {title}
           </h3>
           <p className="mt-3 text-[14px] leading-7 text-slate-600">{text}</p>
@@ -177,12 +177,12 @@ function IconPerson() {
     <svg viewBox="0 0 24 24" className="h-12 w-12" aria-hidden="true">
       <path
         fill="currentColor"
-        className="text-amber-500"
+        className="text-accent"
         d="M12 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3Zm7 10h-2v-4a3 3 0 0 0-3-3H10a3 3 0 0 0-3 3v4H5v-4a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5Z"
       />
       <path
         fill="currentColor"
-        className="text-amber-500"
+        className="text-accent"
         d="M4 12a1 1 0 0 1-1-1V9a1 1 0 0 1 2 0v2a1 1 0 0 1-1 1Zm16 0a1 1 0 0 1-1-1V9a1 1 0 0 1 2 0v2a1 1 0 0 1-1 1Z"
       />
     </svg>
@@ -192,7 +192,7 @@ function IconPerson() {
 function IconPlus() {
   return (
     <svg viewBox="0 0 24 24" className="h-12 w-12" aria-hidden="true">
-      <rect x="2.5" y="2.5" width="19" height="19" rx="4" className="fill-amber-500" />
+      <rect x="2.5" y="2.5" width="19" height="19" rx="4" className="fill-accent" />
       <path
         d="M12 7v10M7 12h10"
         stroke="white"
@@ -207,14 +207,14 @@ function IconGender() {
   return (
     <svg viewBox="0 0 24 24" className="h-12 w-12" aria-hidden="true">
       <path
-        className="stroke-amber-500"
+        className="stroke-accent"
         d="M9 14a5 5 0 1 1 5-5"
         fill="none"
         strokeWidth="2.4"
         strokeLinecap="round"
       />
       <path
-        className="stroke-amber-500"
+        className="stroke-accent"
         d="M14 9V5h4M18 5l-5 5"
         fill="none"
         strokeWidth="2.4"
@@ -222,7 +222,7 @@ function IconGender() {
         strokeLinejoin="round"
       />
       <path
-        className="stroke-amber-500"
+        className="stroke-accent"
         d="M9 19v-5M7 16h4"
         fill="none"
         strokeWidth="2.4"
@@ -236,11 +236,11 @@ function IconThumb() {
   return (
     <svg viewBox="0 0 24 24" className="h-12 w-12" aria-hidden="true">
       <path
-        className="fill-amber-500"
+        className="fill-accent"
         d="M9 11V7.8c0-1.5 1.2-2.8 2.8-2.8h.3c.5 0 .9.4.9.9v3.4h5.1c1.2 0 2.1 1.1 1.9 2.3l-1.1 6.1c-.2 1-1 1.7-2 1.7H10.4c-.8 0-1.4-.6-1.4-1.4V11Z"
       />
       <path
-        className="fill-amber-500"
+        className="fill-accent"
         d="M4 11h3v9H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1Z"
       />
     </svg>

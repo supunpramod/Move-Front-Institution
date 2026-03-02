@@ -16,7 +16,7 @@ export default function Contact() {
 
   return (
     <div>
-<h1 className="text-3xl md:text-4xl font-bold text-[#1c2674] text-center  mt-10">
+<h1 className="text-3xl md:text-4xl font-bold text-accent text-center  mt-10">
         Contact Us
       </h1>
 

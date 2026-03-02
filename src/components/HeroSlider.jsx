@@ -94,14 +94,14 @@ export default function HeroSlider() {
           <div className="mt-8 flex gap-4">
             <Link
               to="/about"
-              className="px-6 py-3 bg-brand-600 hover:bg-brand-700 rounded-2xl text-sm font-semibold hover:text-[#ffc121] "
+              className="px-6 py-3 bg-brand-600 hover:bg-brand-700 rounded-2xl text-sm font-semibold hover:text-secondary "
             >
               Learn More
             </Link>
 
             <Link
               to="/contact"
-              className="px-6 py-3 border text-[#1c2674] border-[#ffc121] rounded-lg text-sm font-semibold bg-[#ffc121] hover:bg-transparent hover:text-white transition"
+              className="px-6 py-3  text-white  rounded-lg text-sm font-semibold bg-secondary hover:bg-transparent hover:text-white transition"
             >
               Contact Us
             </Link>

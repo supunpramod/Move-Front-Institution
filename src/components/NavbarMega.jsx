@@ -102,10 +102,10 @@ export default function NavbarMega() {
         {/* Mobile Hamburger */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden text-primary text-4xl   rounded-xl  hover:bg-white/10 active:bg-white/15 transition"
+          className="md:hidden text-primary text-4xl   rounded-lg  hover:bg-white/10 active:bg-white/15 transition"
           aria-label="Toggle menu"
         >
-          {mobileOpen ? "☰" : "☰"}
+          {mobileOpen ? "✕" : "☰"}
         </button>
       </div>
 
@@ -114,16 +114,16 @@ export default function NavbarMega() {
         <div className="md:hidden border-t border-white/10 bg-white">
           <div className="px-4 py-4 space-y-2">
             {navItems.map((item) => (
-              <div key={item.label} className="rounded-2xl overflow-hidden">
+              <div key={item.label} className="rounded-xl overflow-hidden text-center justify-center">
                 <NavLink
                   to={item.to}
                   onClick={() => setMobileOpen(false)}
                   className={({ isActive }) =>
-                    `block px-3 py-3 text-sm font-semibold transition
+                    `block px-3 py-3 text-sm font-semibold transition  text-center justify-center
                      ${
                        isActive
-                         ? "bg-primary text-white"
-                         : "bg-slate-100 text-slate-800 hover:bg-slate-200"
+                         ? "bg-primary text-white rounded-lg  text-center justify-center"
+                         : "bg-slate-100 text-secondary hover:bg-slate-200  text-center justify-center"
                      }`
                   }
                 >

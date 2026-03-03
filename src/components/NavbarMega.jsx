@@ -36,7 +36,7 @@ export default function NavbarMega() {
             />
           </div>
           <div>
-            <div className="font-extrabold tracking-wide text-xl md:text-xl text-[#81C35F] group-hover:text-[#ffc121] transition">
+            <div className="font-extrabold tracking-wide text-xl md:text-xl text-secondary group-hover:text-accent transition">
               Move Front
             </div>
             <div className="text-xs text-secondary">

@@ -4,7 +4,7 @@ export default function Homeintro() {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <section className="bg-primary/70">
+    <section className="bg-primary">
       <div className="mx-auto max-w-6xl px-4 py-14">
         <div className="grid gap-10 lg:grid-cols-12">
           {/* Left column */}
@@ -13,7 +13,6 @@ export default function Homeintro() {
               Move Front
             </h2>
 
-            {/* First paragraph - always visible */}
             <p className="mt-6 text-fon text-sm leading-relaxed text-justify bg-white p-8 rounded-xl">
               Move Front is a social development organization on process of
               registration as a non-forfeitable organization in Sri Lanka. We
@@ -30,7 +29,6 @@ export default function Homeintro() {
               peaceful, happy, and healthy environment within the community.
             </p>
 
-            {/* Button (only here) */}
             <button
               onClick={() => setShowMore((s) => !s)}
               className="mt-8 inline-flex items-center justify-center rounded-lg bg-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
@@ -39,7 +37,7 @@ export default function Homeintro() {
             </button>
           </div>
 
-          {/* Right column - 2x2 card grid */}
+          {/* Right column */}
           <div className="lg:col-span-8">
             <div className="grid gap-6 sm:grid-cols-2">
               <FeatureCard
@@ -61,13 +59,13 @@ export default function Homeintro() {
               />
 
               <FeatureCard
-                icon={<IconThumb />}
+                icon={<IconDonate />}
                 title="Donate Us"
                 text="Support our work to empower communities and protect children’s rights. Your donation helps us continue sustainable development programmes."
                 button={
                   <a
                     href="/donate"
-                    className="inline-flex items-center justify-center rounded-lg bg-accent px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+                    className="inline-flex items-center justify-center rounded-lg bg-accent px-5 py-3 text-base font-semibold text-white transition hover:opacity-90"
                   >
                     Donate Now
                   </a>
@@ -76,7 +74,7 @@ export default function Homeintro() {
             </div>
           </div>
 
-          {/* ✅ Expanded content goes UNDER BOTH columns */}
+          {/* Expanded content */}
           {showMore && (
             <div className="lg:col-span-12">
               <div className="mt-2 rounded-xl bg-white p-6">
@@ -175,7 +173,6 @@ function FeatureCard({ icon, title, text, button }) {
 
           <p className="mt-3 text-[14px] leading-7 text-slate-600">{text}</p>
 
-          {/* ✅ Button */}
           {button && <div className="mt-5">{button}</div>}
         </div>
       </div>
@@ -183,7 +180,7 @@ function FeatureCard({ icon, title, text, button }) {
   );
 }
 
-/* ---------- Icons (inline SVG) ---------- */
+/* ---------- Icons ---------- */
 
 function IconPerson() {
   return (
@@ -205,14 +202,7 @@ function IconPerson() {
 function IconPlus() {
   return (
     <svg viewBox="0 0 24 24" className="h-12 w-12" aria-hidden="true">
-      <rect
-        x="2.5"
-        y="2.5"
-        width="19"
-        height="19"
-        rx="4"
-        className="fill-accent"
-      />
+      <rect x="2.5" y="2.5" width="19" height="19" rx="4" className="fill-accent" />
       <path
         d="M12 7v10M7 12h10"
         stroke="white"
@@ -237,3 +227,20 @@ function IconThumb() {
     </svg>
   );
 }
+
+/* ✅ Donate icon (Heart + Hand) */
+function IconDonate() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className="h-12 w-12 text-accent"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      aria-hidden="true"
+    >
+      <path d="M12 21s-6-4.3-8.5-7C1.5 11.5 2.8 7 6.5 7c1.9 0 3 1 3.5 2 0 0 1.1-2 3.5-2C17.2 7 18.5 11.5 16.5 14 14 16.7 12 21 12 21Z" />
+    </svg>
+  );
+}
+

@@ -35,21 +35,26 @@ export default function WhatWeDo() {
         </div>
       </Section>
 
-      <Section title="Where We Work" subtitle="Geographic coverage">
-            <div className="grid md:grid-cols-2 gap-4">
-              {places.map((p) => (
-                <Card key={p.name} title={p.name}>
-                  {p.note}
-                </Card>
-              ))}
-            </div>
-      
-            <div className="mt-6 rounded-2xl border border-slate-200 p-6 bg-slate-50">
-              <p className="text-slate-700 text-sm">
-                Current operations: 03 districts and 24 villages (Puttalam, Gampaha, Nuwara Eliya). Coordination in Colombo.
-              </p>
-            </div>
-          </Section>
+      <Section title="Where We Work" subtitle="Geographic coverage" className="bg-secondary">
+  <div className="grid md:grid-cols-2 gap-4">
+    {places.map((p) => (
+      <Card
+        key={p.name}
+        title={p.name}
+        className="border-0 ring-0 shadow-sm"   // ✅ border remove (this section only)
+      >
+        {p.note}
+      </Card>
+    ))}
+  </div>
+
+  <div className="mt-6 rounded-2xl border border-slate-200 p-6 bg-slate-50">
+    <p className="text-slate-700 text-sm">
+      Current operations: 03 districts and 24 villages (Puttalam, Gampaha, Nuwara Eliya).
+      Coordination in Colombo.
+    </p>
+  </div>
+</Section>
 
 
       

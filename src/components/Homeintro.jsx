@@ -33,45 +33,53 @@ export default function Homeintro() {
             {/* Button (only here) */}
             <button
               onClick={() => setShowMore((s) => !s)}
-              className="mt-8 inline-flex items-center justify-center rounded-lg bg-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800  "
+              className="mt-8 inline-flex items-center justify-center rounded-lg bg-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
             >
               {showMore ? "Read Less" : "Read More"}
             </button>
           </div>
 
           {/* Right column - 2x2 card grid */}
-          <div className="lg:col-span-8 ">
-            <div className="grid gap-6 sm:grid-cols-2 ">
+          <div className="lg:col-span-8">
+            <div className="grid gap-6 sm:grid-cols-2">
               <FeatureCard
-  icon={<IconPerson />}
-  title="Community Development"
-  text="Move Front facilitates community transformation across 3 districts and 24 villages including Puttlam, Gampaha and Nuwara Eliya. We work towards creating peaceful, healthy and equal communities through sustainable social development initiatives."
-/>
+                icon={<IconPerson />}
+                title="Community Development"
+                text="Move Front facilitates community transformation across 3 districts and 24 villages including Puttlam, Gampaha and Nuwara Eliya. We work towards creating peaceful, healthy and equal communities through sustainable social development initiatives."
+              />
 
-<FeatureCard
-  icon={<IconPlus />}
-  title="Organization Structure"
-  text="Move Front strengthens Community Based Organizations (CBOs) at divisional and district levels. We mobilize community members to actively participate in development and policy implementation through structured alliances."
-/>
+              <FeatureCard
+                icon={<IconPlus />}
+                title="Organization Structure"
+                text="Move Front strengthens Community Based Organizations (CBOs) at divisional and district levels. We mobilize community members to actively participate in development and policy implementation through structured alliances."
+              />
 
-<FeatureCard
-  icon={<IconGender />}
-  title="Gender Equality & Empowerment"
-  text="We focus on gender equality, women empowerment and reducing gender-based violence. Our holistic approach promotes dignity, rights protection and equal opportunities for women, men, youth and children."
-/>
+              <FeatureCard
+                icon={<IconThumb />}
+                title="Partnership & Advocacy"
+                text="Move Front collaborates with government and non-government organizations including Ministry of Women and Child Affairs, Ministry of Health, SLPA, We Effect and other partners to advocate and support community-level policy implementation."
+              />
 
-<FeatureCard
-  icon={<IconThumb />}
-  title="Partnership & Advocacy"
-  text="Move Front collaborates with government and non-government organizations including Ministry of Women and Child Affairs, Ministry of Health, SLPA, We Effect and other partners to advocate and support community-level policy implementation."
-/>
+              <FeatureCard
+                icon={<IconThumb />}
+                title="Donate Us"
+                text="Support our work to empower communities and protect children’s rights. Your donation helps us continue sustainable development programmes."
+                button={
+                  <a
+                    href="/donate"
+                    className="inline-flex items-center justify-center rounded-lg bg-accent px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+                  >
+                    Donate Now
+                  </a>
+                }
+              />
             </div>
           </div>
 
           {/* ✅ Expanded content goes UNDER BOTH columns */}
           {showMore && (
             <div className="lg:col-span-12">
-              <div className="mt-2 rounded-xl  bg-white p-6">
+              <div className="mt-2 rounded-xl bg-white p-6">
                 <div className="space-y-4">
                   <p className="text-slate-600 text-sm leading-relaxed text-justify">
                     As an organization that works to empower the people to be
@@ -152,18 +160,23 @@ export default function Homeintro() {
   );
 }
 
-function FeatureCard({ icon, title, text }) {
+function FeatureCard({ icon, title, text, button }) {
   return (
-    <div className="relative min-h-[190px] rounded-xl  bg-white p-8">
+    <div className="relative min-h-[190px] rounded-xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
       <div className="flex gap-6">
         <div className="mt-1 flex h-14 w-14 items-center justify-center">
           {icon}
         </div>
-        <div>
+
+        <div className="flex-1">
           <h3 className="text-xl font-extrabold leading-snug text-secondary">
             {title}
           </h3>
+
           <p className="mt-3 text-[14px] leading-7 text-slate-600">{text}</p>
+
+          {/* ✅ Button */}
+          {button && <div className="mt-5">{button}</div>}
         </div>
       </div>
     </div>
@@ -192,39 +205,17 @@ function IconPerson() {
 function IconPlus() {
   return (
     <svg viewBox="0 0 24 24" className="h-12 w-12" aria-hidden="true">
-      <rect x="2.5" y="2.5" width="19" height="19" rx="4" className="fill-accent" />
+      <rect
+        x="2.5"
+        y="2.5"
+        width="19"
+        height="19"
+        rx="4"
+        className="fill-accent"
+      />
       <path
         d="M12 7v10M7 12h10"
         stroke="white"
-        strokeWidth="2.4"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
-
-function IconGender() {
-  return (
-    <svg viewBox="0 0 24 24" className="h-12 w-12" aria-hidden="true">
-      <path
-        className="stroke-accent"
-        d="M9 14a5 5 0 1 1 5-5"
-        fill="none"
-        strokeWidth="2.4"
-        strokeLinecap="round"
-      />
-      <path
-        className="stroke-accent"
-        d="M14 9V5h4M18 5l-5 5"
-        fill="none"
-        strokeWidth="2.4"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        className="stroke-accent"
-        d="M9 19v-5M7 16h4"
-        fill="none"
         strokeWidth="2.4"
         strokeLinecap="round"
       />

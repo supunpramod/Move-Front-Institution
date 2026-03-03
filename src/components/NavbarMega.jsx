@@ -12,12 +12,7 @@ const navItems = [
   {
     label: "What We Do",
     to: "/what-we-do",
-    children: [
-      { label: "Livelihood Development", to: "/what-we-do#livelihood" },
-      { label: "Women Empowerment", to: "/what-we-do#women" },
-      { label: "Youth & Child Rights", to: "/what-we-do#youth" },
-      { label: "Environment", to: "/what-we-do#env" },
-    ],
+    
   },
   { label: "Resources", to: "/where-we-work" },
   { label: "Archive", to: "/funding-reports" },

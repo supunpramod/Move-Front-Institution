@@ -5,10 +5,10 @@ export default function Funding() {
   return (
     <>
 
-    <h1 className="text-3xl md:text-4xl font-bold text-accent text-center  mt-10">
+    <h1 className="text-3xl md:text-4xl font-bold text-accent text-center  m-10">
         Archive
       </h1>
-<Section title="Collaborations & Projects">
+<Section title="Collaborations & Projects" className="bg-secondary">
   <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
     <ul className="list-disc pl-5 text-slate-700 text-sm leading-relaxed space-y-3">
       

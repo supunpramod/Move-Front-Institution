@@ -28,7 +28,7 @@ export default function NavbarMega() {
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-3 group">
-          <div className="h-14 w-30   justify-center rounded-xl ">
+          <div className="h-12 w-30   justify-center rounded-xl ">
             <img
               src={logo}
               alt="MFI Logo"

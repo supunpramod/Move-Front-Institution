@@ -82,7 +82,7 @@ export default function HeroSlider() {
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-center">
-        <div className="max-w-6xl mx-auto px-4 text-white">
+        <div className="max-w-6xl mx-auto px-4 text-primary">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight max-w-3xl">
             {slide.title}
           </h1>
@@ -94,7 +94,7 @@ export default function HeroSlider() {
           <div className="mt-8 flex gap-4">
             <Link
               to="/about"
-              className="px-6 py-3 bg-brand-600 hover:bg-brand-700  text-sm font-semibold hover:text-secondary "
+              className="px-6 py-3 bg-brand-600 hover:bg-brand-700  text-sm font-semibold text-white hover:text-secondary "
             >
               Learn More
             </Link>
@@ -115,8 +115,8 @@ export default function HeroSlider() {
                 onClick={() => setCurrent(index)}
                 className={`h-3 rounded-full transition-all ${
                   index === current
-                    ? "w-10 bg-white"
-                    : "w-3 bg-white/50"
+                    ? "w-10 bg-secondary"
+                    : "w-3 bg-white/80"
                 }`}
               />
             ))}

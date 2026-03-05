@@ -19,12 +19,12 @@ export default function TopBar() {
   
   <div className="flex items-center gap-2 hover:text-blue-600 transition">
     <Phone className="w-5 h-4 text-white" />
-    <span className="text-white">031 2252610</span>
+    <span className="text-white">077 755 9177</span>
   </div>
 
   <div className="flex items-center gap-2 hover:text-red-600 transition">
     <Mail className="w-5 h-4 text-white" />
-    <span className="text-white">chamika1969@gmail.com</span>
+    <span className="text-white">www.movefront.com</span>
   </div>
 
 </div>

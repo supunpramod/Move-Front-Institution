@@ -23,13 +23,30 @@ export default function WhatWeDo() {
           <Card title="Livelihood Development">
             Holistic livelihood development with awareness, skill building and stakeholder engagement.
           </Card>
-          <Card title="Gender Equality">
+          <Card title="Econogical agriculture">
             Advocacy and community action for equality and reduction of gender-based violence.
           </Card>
           <Card title="Women Empowerment & Development">
             Empowering women through safety, health, leadership and economic opportunities.
           </Card>
-          <Card title="Strengthening CBOs">
+          <Card title="Global Warning">
+            Rights-based approach to strengthen community organizations and alliances.
+          </Card>
+
+          <Card title="Social Mobilization">
+            Rights-based approach to strengthen community organizations and alliances.
+          </Card>
+          <Card title="Fees and Recognition">
+            Rights-based approach to strengthen community organizations and alliances.
+          </Card>
+
+          <Card title="Environment Protection">
+            Rights-based approach to strengthen community organizations and alliances.
+          </Card>
+          <Card title="Human rights">
+            Rights-based approach to strengthen community organizations and alliances.
+          </Card>
+          <Card title="Human telian Assistanet">
             Rights-based approach to strengthen community organizations and alliances.
           </Card>
         </div>
@@ -81,7 +98,13 @@ export default function WhatWeDo() {
       </li>
 
       <li>
-        <strong>Healthy Lanka Alliance for Development – Norway</strong> – 
+        <strong>Safe Foundation Projects</strong> – 
+        Programs on alcohol and drug prevention, child rights, gender equality, 
+        and mental health development.
+      </li>
+
+      <li>
+        <strong>Quatar Charity Projects</strong> – 
         Programs on alcohol and drug prevention, child rights, gender equality, 
         and mental health development.
       </li>

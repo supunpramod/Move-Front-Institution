@@ -70,7 +70,7 @@ export default function Contact() {
           Jayasinghe Arachchige Chamika<br />
           
           chamika1969@gmail.com<br />
-          chamika@healthylanka.lk
+         
         </Card>
 
         <Card title="Chairperson">

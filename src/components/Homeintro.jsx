@@ -60,7 +60,7 @@ export default function Homeintro() {
 
               <FeatureCard
                 icon={<IconDonate />}
-                title="Donate Us"
+                title="Sponcer a Child"
                 text="Support our work to empower communities and protect children’s rights. Your donation helps us continue sustainable development programmes."
                 button={
                   <a

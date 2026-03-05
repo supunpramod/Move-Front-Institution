@@ -11,17 +11,61 @@ export default function WhereWeWork() {
 
   return (
     <div>
-      <h1 className="text-3xl md:text-4xl font-bold text-accent text-center mt-10">
+      <h1 className="text-3xl md:text-4xl font-bold text-accent text-center m-10">
         Resources
       </h1>
 
-      <Section title="Partners and Networks">
+      <Section title="Partners and Networks" className="bg-secondary">
         <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-          <p className="text-slate-700 text-sm leading-relaxed">
-            Healthy Lanka Alliance for Development
-          </p>
+          <ul className="list-disc pl-5 text-slate-700 text-sm leading-relaxed space-y-3">
+            
+            <li>
+  <strong>UNOPS Projects</strong> – Implemented in collaboration with partners 
+  such as VRIDDHI, focusing on strengthening ethnic and inter-religious harmony, 
+  peacebuilding, and reconciliation initiatives at community level.
+</li>
+
+<li>
+  <strong>KIBO Alliance – USA</strong> – Supporting child rights promotion and 
+  holistic development of adolescents through education, protection, and 
+  leadership-building programs.
+</li>
+
+<li>
+  <strong>Asian Rural Institute – Japan</strong> – Promoting sustainable and 
+  organic agriculture practices while addressing climate change and environmental 
+  conservation at grassroots level.
+</li>
+
+<li>
+  <strong>SAFE Foundation Projects</strong> – Implementing community-based 
+  programs on alcohol and drug prevention, child protection, gender equality, 
+  and psychosocial and mental health awareness.
+</li>
+
+<li>
+  <strong>Qatar Charity Projects</strong> – Delivering humanitarian and 
+  community development initiatives focused on vulnerable families, education 
+  support, and social wellbeing.
+</li>
+
+<li>
+  <strong>Corporate Social Responsibility (CSR) Projects</strong> – Partnering 
+  with private sector organizations to implement community development programs 
+  in health, education, livelihood support, and environmental sustainability.
+</li>
+
+<li>
+  <strong>Government of Sri Lanka Recognized Projects</strong> – Officially 
+  registered and recognized initiatives aligned with national development 
+  priorities, including social protection, youth empowerment, and community 
+  welfare programs.
+</li>
+      
+          </ul>
         </div>
       </Section>
+      
 
       {/* Cards Section */}
       <Section>

@@ -21,34 +21,52 @@ export default function WhatWeDo() {
       <Section title="Core components and areas we work on" subtitle=" ">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           <Card title="Livelihood Development">
-            Holistic livelihood development with awareness, skill building and stakeholder engagement.
-          </Card>
-          <Card title="Econogical agriculture">
-            Advocacy and community action for equality and reduction of gender-based violence.
-          </Card>
-          <Card title="Women Empowerment & Development">
-            Empowering women through safety, health, leadership and economic opportunities.
-          </Card>
-          <Card title="Global Warning">
-            Rights-based approach to strengthen community organizations and alliances.
-          </Card>
+  Promoting sustainable livelihood opportunities through community awareness, 
+  vocational skill development, entrepreneurship support, and stakeholder engagement 
+  to improve income security and resilience.
+</Card>
 
-          <Card title="Social Mobilization">
-            Rights-based approach to strengthen community organizations and alliances.
-          </Card>
-          <Card title="Fees and Recognition">
-            Rights-based approach to strengthen community organizations and alliances.
-          </Card>
+<Card title="Ecological Agriculture">
+  Promoting environmentally friendly and climate-resilient farming practices 
+  that protect natural resources, improve soil health, and ensure long-term 
+  food security for rural communities.
+</Card>
 
-          <Card title="Environment Protection">
-            Rights-based approach to strengthen community organizations and alliances.
-          </Card>
-          <Card title="Human rights">
-            Rights-based approach to strengthen community organizations and alliances.
-          </Card>
-          <Card title="Human telian Assistanet">
-            Rights-based approach to strengthen community organizations and alliances.
-          </Card>
+<Card title="Women Empowerment & Development">
+  Empowering women and girls through education, leadership training, 
+  health awareness, economic opportunities, and advocacy for equal rights 
+  and gender justice.
+</Card>
+
+<Card title="Climate Change Awareness">
+  Raising awareness on climate change impacts and supporting community-based 
+  adaptation and mitigation initiatives to build climate-resilient communities.
+</Card>
+
+<Card title="Social Mobilization">
+  Strengthening community participation and collective action by building 
+  grassroots leadership, fostering unity, and encouraging active civic engagement.
+</Card>
+
+<Card title="Peace and Reconciliation">
+  Promoting social harmony, conflict resolution, and inclusive dialogue 
+  to build peaceful and cohesive communities.
+</Card>
+
+<Card title="Environmental Protection">
+  Conserving biodiversity and natural ecosystems through community education, 
+  sustainable practices, and environmental advocacy initiatives.
+</Card>
+
+<Card title="Human Rights">
+  Advocating for the protection and promotion of fundamental human rights, 
+  equality, and social justice for all individuals regardless of background.
+</Card>
+
+<Card title="Humanitarian Assistance">
+  Providing timely emergency relief, essential services, and recovery support 
+  to vulnerable communities affected by disasters and crises.
+</Card>
         </div>
       </Section>
 

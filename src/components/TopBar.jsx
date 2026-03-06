@@ -24,7 +24,7 @@ export default function TopBar() {
 
   <div className="flex items-center gap-2 hover:text-red-600 transition">
     <Mail className="w-5 h-4 text-white" />
-    <span className="text-white">www.movefront.com</span>
+    <span className="text-white">chamika1969@gmail.com</span>
   </div>
 
 </div>

@@ -133,7 +133,7 @@ export default function Mediaroom() {
             ))}
           </div>
 
-          <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base text-justify">
+          <div className="mt-8 space-y-4 text-fon text-base sm:text-base text-justify">
             <p>
               A peace and reconciliation event was conducted for Thai Pongal Day
               at the divisional secretariat office Katana with the participation
@@ -162,7 +162,7 @@ export default function Mediaroom() {
             ))}
           </div>
 
-          <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+          <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
             <p>
               The Peacebuilding Committees of Puttalam and Negombo convened
               for a reconciliation dialogue aimed at strengthening community
@@ -197,7 +197,7 @@ export default function Mediaroom() {
     </div>
 
     {/* Description */}
-    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
       <p>
         A peace and reconciliation training workshop was conducted for 
         50 journalists representing television, print media, and social 
@@ -236,7 +236,7 @@ export default function Mediaroom() {
     </div>
 
     {/* Description */}
-    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
       <p>
         Move Forward and Healthy Lanka are jointly implementing a programme to
         strengthen ethnic and religious reconciliation in the Katana and Negombo
@@ -287,7 +287,7 @@ export default function Mediaroom() {
     </div>
 
     {/* Description */}
-    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
       <p>
         Move Front and the Kibo Alliance are jointly implementing an 
         Organic Home Gardening Development Programme aimed at empowering 
@@ -338,7 +338,7 @@ export default function Mediaroom() {
     </div>
 
     {/* Description */}
-    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
       <p>
         A Child Development Programme was successfully conducted at 
         Selananda School, Kirimatiyana, Wennappuwa with the objective 
@@ -386,7 +386,7 @@ export default function Mediaroom() {
     </div>
 
     {/* Description */}
-    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
       <p>
         Move Front conducted a project monitoring visit at St. Anne School 
         as part of the Child Rights Protection Programme, ensuring that 
@@ -437,7 +437,7 @@ export default function Mediaroom() {
     </div>
 
     {/* Description */}
-    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
       <p>
         A comprehensive training programme on soil conservation was conducted 
         for the children of Kurana St. Anne School, aiming to promote ecological 
@@ -486,7 +486,7 @@ export default function Mediaroom() {
     </div>
 
     {/* Description */}
-    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
       <p>
         A comprehensive training programme on leadership development and 
         the promotion of organic farming was conducted in Mudukatuwa village 
@@ -535,7 +535,7 @@ export default function Mediaroom() {
     </div>
 
     {/* Description */}
-    <div className="mt-8 space-y-4 text-gray-700 text-base sm:text-base leading-relaxed text-justify">
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
       <p>
         A public awareness campaign was conducted to promote safe migration 
         practices and reduce the risks associated with human trafficking 

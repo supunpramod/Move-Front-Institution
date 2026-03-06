@@ -23,7 +23,7 @@ export default function Contact() {
     <Section title="Contact" subtitle="Get in touch with us">
       <div className="grid md:grid-cols-2 gap-4">
         <Card title="Main Contact">
-          <div className="space-y-2 text-sm text-[#475569]">
+          <div className="space-y-2 text-sm text-font">
             <p><span className="font-semibold">Address:</span> No 310 Oruwella Road Katuneriya Sri Lanka</p>
             <p><span className="font-semibold">Telephone:</span> 031 2252610, 0777559177, 0712007295</p>
             <p><span className="font-semibold">Fax:</span> Not yet</p>
@@ -66,28 +66,22 @@ export default function Contact() {
       </div>
 
       <div className="mt-6 grid md:grid-cols-3 gap-4">
-        <Card title="Executive Manager">
-          Jayasinghe Arachchige Chamika<br />
-          
-          chamika1969@gmail.com<br />
-         
-        </Card>
+  <Card title="Executive Manager">
+    <strong>Jayasinghe Arachchige Chamika</strong><br />
+    chamika1969@gmail.com<br />
+    movefront1226@gmail.com
+  </Card>
 
-        <Card title="Chairperson">
-          Medahenegedara Nilushini Karunadasa<br />
-          
-          nilushimovefront@gmail.com
-        </Card>
+  <Card title="Chairperson">
+    <strong>Medahenegedara Nilushini Karunadasa</strong><br />
+    nilushimovefront@gmail.com
+  </Card>
 
-        <Card title="Secretary">
-          Ranjala Fernando<br />
-          
-          ranjalafernando@outlook.com
-        </Card>
-
-
-       
-      </div>
+  <Card title="Secretary">
+    <strong>Ranjala Fernando</strong><br />
+    ranjalafernando@outlook.com
+  </Card>
+</div>
     </Section>
 
     </div>

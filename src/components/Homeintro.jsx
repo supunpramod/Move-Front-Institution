@@ -79,7 +79,7 @@ export default function Homeintro() {
             <div className="lg:col-span-12">
               <div className="mt-2 rounded-xl bg-white p-6">
                 <div className="space-y-4">
-                  <p className="text-slate-600 text-sm leading-relaxed text-justify">
+                  <p className="text-fon text-sm leading-relaxed text-justify">
                     As an organization that works to empower the people to be
                     their own facilitators for change, Move Front institution
                     treats the mobilization of community members and the civil
@@ -95,7 +95,7 @@ export default function Homeintro() {
                     participation of community-based organizations (CBOs).
                   </p>
 
-                  <p className="text-slate-700 text-sm leading-relaxed text-justify">
+                  <p className="text-fon text-sm leading-relaxed text-justify">
                     MFI components namely, livelihood development, gender
                     equality, women empowerment and development, Strengthening
                     Community based organizations through right base approach
@@ -110,7 +110,7 @@ export default function Homeintro() {
                     activities and policies.
                   </p>
 
-                  <p className="text-slate-700 text-sm leading-relaxed text-justify">
+                  <p className="text-fon text-sm leading-relaxed text-justify">
                     Move Front institutions at the forefront of one of the
                     latest ventures of the government and non-governmental
                     networks which is the establishment of divisional and
@@ -121,7 +121,7 @@ export default function Homeintro() {
                     the people.
                   </p>
 
-                  <p className="text-slate-700 text-sm leading-relaxed text-justify">
+                  <p className="text-fon text-sm leading-relaxed text-justify">
                     Move Front also work in coordination with various government
                     and nongovernmental organizations and agencies and various
                     network’s supporting them to advocate for, and contribute,
@@ -134,7 +134,7 @@ export default function Homeintro() {
                     development, Safe foundation US aid project Etc.
                   </p>
 
-                  <p className="text-slate-700 text-sm leading-relaxed text-justify">
+                  <p className="text-fon text-sm leading-relaxed text-justify">
                     Additionally, we recognize environment and ecological
                     agriculture major crosscutting issues related understand
                     that tackling issues is thus necessary in reducing poverty
@@ -171,7 +171,7 @@ function FeatureCard({ icon, title, text, button }) {
             {title}
           </h3>
 
-          <p className="mt-3 text-[14px] leading-7 text-slate-600">{text}</p>
+          <p className="mt-3 text-[14px] leading-7 text-fon">{text}</p>
 
           {button && <div className="mt-5">{button}</div>}
         </div>

@@ -8,9 +8,9 @@ export default function Funding() {
     <h1 className="text-3xl md:text-4xl font-bold text-accent text-center  m-10">
         Archive
       </h1>
-<Section title="Collaborations & Projects" className="bg-secondary">
-  <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-    <ul className="list-disc pl-5 text-slate-700 text-sm leading-relaxed space-y-3">
+<Section title="Collaborations & Projects" className="bg-white">
+  <div className="rounded-2xl border border-primary bg-slate-50 p-6">
+    <ul className="list-disc pl-5 text-fon text-sm leading-relaxed space-y-3">
       
        <li>
   <strong>UNOPS Projects</strong> – Implemented in collaboration with partners 

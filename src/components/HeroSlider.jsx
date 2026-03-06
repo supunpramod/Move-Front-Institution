@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 
-import pic1 from "../assets/pic1.png";
+import fb2 from "../assets/fb2.png";
 import pic2 from "../assets/pic2.png";
-import pic3 from "../assets/pic3.png";
+import fb24 from "../assets/fb24.jpg";
 import pic4 from "../assets/pic4.png";
 import pic5 from "../assets/pic5.png";
 import pic6 from "../assets/pic6.png";
@@ -14,7 +14,7 @@ const slides = [
     title: "Livelihood Development",
     description:
       "Supporting vulnerable communities to build sustainable livelihoods through vocational training, entrepreneurship opportunities, and income-generating activities.",
-    image: pic1,
+    image: fb2,
   },
   {
     title: "Ecological Agriculture",
@@ -26,7 +26,7 @@ const slides = [
     title: "Women Empowerment & Development",
     description:
       "Empowering women and girls through education, leadership development, health awareness, and economic opportunities to strengthen their role in society.",
-    image: pic3,
+    image: fb24,
   },
   {
     title: "Climate Change Awareness/Actions",
@@ -50,7 +50,7 @@ const slides = [
     title: "Environmental Protection",
     description:
       "Protecting ecosystems and biodiversity through environmental awareness programs, sustainable practices, and community participation.",
-    image: pic1,
+    image: fb2,
   },
   {
     title: "Human Rights",
@@ -62,7 +62,7 @@ const slides = [
     title: "Humanitarian Assistance",
     description:
       "Providing emergency relief, essential services, and recovery support for communities affected by disasters and crises.",
-    image: pic3,
+    image: fb24,
   },
 ];
 

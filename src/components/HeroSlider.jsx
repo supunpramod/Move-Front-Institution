@@ -10,47 +10,59 @@ import pic5 from "../assets/pic5.png";
 import pic6 from "../assets/pic6.png";
 
 const slides = [
-  {
-    title: "Empowering Communities",
+ {
+    title: "Livelihood Development",
     description:
-      "Holistic transformation of women, men, youth and disadvantaged communities.",
-    image:
-      pic1,
+      "Supporting vulnerable communities to build sustainable livelihoods through vocational training, entrepreneurship opportunities, and income-generating activities.",
+    image: pic1,
   },
   {
-    title: "Promoting Gender Equality",
+    title: "Ecological Agriculture",
     description:
-      "Advocating for equal rights, safe spaces and women empowerment.",
-    image:
-      pic2,
+      "Promoting environmentally friendly farming practices that protect natural resources, improve soil health, and ensure long-term food security.",
+    image: pic2,
   },
   {
-    title: "Sustainable Livelihood Development",
+    title: "Women Empowerment & Development",
     description:
-      "Building skills, income opportunities and community resilience.",
-    image:
-      pic3,
+      "Empowering women and girls through education, leadership development, health awareness, and economic opportunities to strengthen their role in society.",
+    image: pic3,
   },
   {
-    title: "Empowering Communities",
+    title: "Climate Change Awareness/Actions",
     description:
-      "Holistic transformation of women, men, youth and disadvantaged communities.",
-    image:
-      pic4,
+      "Raising awareness about climate change and supporting community-based initiatives that build resilience and promote sustainable environmental practices.",
+    image: pic4,
   },
   {
-    title: "Promoting Gender Equality",
+    title: "Social Mobilization",
     description:
-      "Advocating for equal rights, safe spaces and women empowerment.",
-    image:
-      pic5,
+      "Encouraging active community participation and collective action by strengthening grassroots leadership and social engagement.",
+    image: pic5,
   },
   {
-    title: "Sustainable Livelihood Development",
+    title: "Peace & Reconciliation",
     description:
-      "Building skills, income opportunities and community resilience.",
-    image:
-      pic6,
+      "Promoting social harmony, dialogue, and mutual understanding among diverse communities to build peaceful and inclusive societies.",
+    image: pic6,
+  },
+  {
+    title: "Environmental Protection",
+    description:
+      "Protecting ecosystems and biodiversity through environmental awareness programs, sustainable practices, and community participation.",
+    image: pic1,
+  },
+  {
+    title: "Human Rights",
+    description:
+      "Advocating for the protection of fundamental human rights, equality, dignity, and social justice for all individuals.",
+    image: pic2,
+  },
+  {
+    title: "Humanitarian Assistance",
+    description:
+      "Providing emergency relief, essential services, and recovery support for communities affected by disasters and crises.",
+    image: pic3,
   },
 ];
 

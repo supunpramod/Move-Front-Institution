@@ -38,7 +38,7 @@ export default function WhatWeDo() {
   and gender justice.
 </Card>
 
-<Card title="Climate Change Awareness">
+<Card title="Climate Change Awareness/Actions">
   Raising awareness on climate change impacts and supporting community-based 
   adaptation and mitigation initiatives to build climate-resilient communities.
 </Card>

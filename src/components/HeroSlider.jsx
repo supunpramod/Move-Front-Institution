@@ -8,13 +8,21 @@ import fb24 from "../assets/fb24.jpg";
 import pic4 from "../assets/pic4.png";
 import pic5 from "../assets/pic5.png";
 import pic6 from "../assets/pic6.png";
+import slider1 from "../assets/slider1.jpeg";
+import slider2 from "../assets/slider2.jpeg";
+import slider3 from "../assets/slider3.jpeg";
+import slider4 from "../assets/slider4.jpeg";
+import slider5 from "../assets/slider5.jpeg";
+import slider6 from "../assets/slider6.jpeg";
+import slider7 from "../assets/slider7.jpeg";
+import slider8 from "../assets/slider8.jpeg";
 
 const slides = [
  {
     title: "Livelihood Development",
     description:
       "Supporting vulnerable communities to build sustainable livelihoods through vocational training, entrepreneurship opportunities, and income-generating activities.",
-    image: fb2,
+    image: slider1,
   },
   {
     title: "Ecological Agriculture",
@@ -38,13 +46,13 @@ const slides = [
     title: "Social Mobilization",
     description:
       "Encouraging active community participation and collective action by strengthening grassroots leadership and social engagement.",
-    image: pic5,
+    image: slider5,
   },
   {
     title: "Peace & Reconciliation",
     description:
       "Promoting social harmony, dialogue, and mutual understanding among diverse communities to build peaceful and inclusive societies.",
-    image: pic6,
+    image: slider7,
   },
   {
     title: "Environmental Protection",
@@ -62,7 +70,37 @@ const slides = [
     title: "Humanitarian Assistance",
     description:
       "Providing emergency relief, essential services, and recovery support for communities affected by disasters and crises.",
-    image: fb24,
+    image: slider6,
+  },
+
+
+
+   {
+    title: "Human Trafficking and Safe Migration Programmes",
+    description:
+      "We raise awareness on the risks of human trafficking and promote safe migration practices. Our programmes educate communities, provide guidance to vulnerable individuals, and support victims to rebuild their lives safely.",
+    image: slider2,
+  },
+
+  {
+    title: "Child Sponsorship Programmes",
+    description:
+      "We support children from vulnerable backgrounds by providing access to education, healthcare, and basic needs. Through sponsorship, we help children grow in a safe environment and build a better future.",
+    image: slider3,
+  },
+
+   {
+    title: "Therapeutical counciling and Psychosocial Support Programmes",
+    description:
+      "We offer professional counseling and emotional support services to individuals facing trauma, stress, or difficult life situations. Our goal is to improve mental well-being and promote healing.",
+    image: slider4,
+  },
+
+    {
+    title: "Capacity Building Programmes",
+    description:
+      "We empower individuals and communities by enhancing their skills, knowledge, and confidence. These programmes focus on training, leadership development, and creating sustainable opportunities for growth.",
+    image: slider8,
   },
 ];
 

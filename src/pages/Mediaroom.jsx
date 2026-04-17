@@ -35,6 +35,15 @@ import fb31 from "../assets/fb31.jpg";
 import fb32 from "../assets/fb32.jpg";
 import fb33 from "../assets/fb33.jpg";
 
+import fb34 from "../assets/fb34.jpeg";
+import fb35 from "../assets/fb35.jpeg";
+import fb36 from "../assets/fb36.jpeg";
+import fb37 from "../assets/fb37.jpeg";
+
+import fb38 from "../assets/fb38.jpeg";
+import fb39 from "../assets/fb39.jpeg";
+import fb40 from "../assets/fb40.jpeg";
+
 
 /* Section 1 Images */
 const pongalImages = [
@@ -100,6 +109,19 @@ const safeMigrationImages = [
   { src: fb31, alt: "Safe Migration Awareness Session" },
   { src: fb32, alt: "Community Discussion on Human Trafficking Prevention" },
   { src: fb33, alt: "Distribution of Awareness Materials" },
+];
+
+const capacityBuildingImages = [
+  { src: fb34, alt: "Capacity Building Training Session" },
+  { src: fb35, alt: "Workshop on Skill Development" },
+  { src: fb36, alt: "Group Activities and Learning" },
+  { src: fb37, alt: "Participant Engagement Session" },
+];
+
+const peaceReconciliationImages = [
+  { src: fb38, alt: "Peace Building Session" },
+  { src: fb39, alt: "Community Reconciliation Discussion" },
+  { src: fb40, alt: "Promoting Unity and Harmony" },
 ];
 export default function Mediaroom() {
   return (
@@ -502,6 +524,103 @@ export default function Mediaroom() {
         This initiative contributes to protecting vulnerable populations, 
         preventing exploitation, and fostering safer migration pathways 
         through increased public awareness and community engagement.
+      </p>
+    </div>
+
+  </div>
+</Section>
+
+
+{/* ================= Section 11 ================= */}
+<Section title="Capacity Building Programs">
+  <div>
+
+    {/* Images */}
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {capacityBuildingImages.map((img) => (
+        <div key={img.src} className="overflow-hidden rounded-lg shadow-md">
+          <img
+            src={img.src}
+            alt={img.alt}
+            loading="lazy"
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      ))}
+    </div>
+
+    {/* Description */}
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
+      <p>
+        A series of capacity building programs were conducted to enhance 
+        the knowledge, skills, and competencies of individuals within 
+        the community.
+      </p>
+
+      <p>
+        These programs focused on developing practical skills, improving 
+        leadership abilities, and strengthening participants’ confidence 
+        to effectively contribute to personal and professional growth.
+      </p>
+
+      <p>
+        Training sessions, workshops, and interactive activities were 
+        organized to provide hands-on experience and encourage active 
+        participation among youth and community members.
+      </p>
+
+      <p>
+        This initiative supports sustainable development by empowering 
+        individuals with the tools and knowledge needed to face challenges, 
+        make informed decisions, and create positive impacts in their communities.
+      </p>
+    </div>
+
+  </div>
+</Section>
+
+
+{/* ================= Section 12 ================= */}
+<Section title="Peace and Reconciliation">
+  <div>
+
+    {/* Images */}
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {peaceReconciliationImages.map((img) => (
+        <div key={img.src} className="overflow-hidden rounded-lg shadow-md">
+          <img
+            src={img.src}
+            alt={img.alt}
+            loading="lazy"
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      ))}
+    </div>
+
+    {/* Description */}
+    <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
+      <p>
+        Peace and reconciliation initiatives were carried out to promote 
+        understanding, unity, and social harmony among diverse communities.
+      </p>
+
+      <p>
+        These programs focused on encouraging dialogue, resolving conflicts, 
+        and building mutual respect among individuals from different 
+        backgrounds.
+      </p>
+
+      <p>
+        Community discussions, awareness sessions, and collaborative 
+        activities were organized to strengthen relationships and 
+        foster trust within the community.
+      </p>
+
+      <p>
+        This initiative contributes to long-term peace by promoting 
+        inclusiveness, cooperation, and sustainable coexistence 
+        within society.
       </p>
     </div>
 

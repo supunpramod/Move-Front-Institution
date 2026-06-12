@@ -1,6 +1,6 @@
 import Section from "../components/Section";
 import Card from "../components/Card";
-import orgImage from "../assets/org.png";
+import orgImage from "../assets/org2.png";
 import kawyaImage from "../assets/Kawya parami.jpeg";
 import NilushiniImage from "../assets/Nilushini Karunadasa.jpeg";
 import HeshanImage from "../assets/Heshan pieris.jpeg";
@@ -146,11 +146,11 @@ export default function About() {
         <div className="text-center mb-14">
           
 
-          <h2 className="mt-4 text-4xl  font-bold text-primary ">
+          <h2 className="mt-4 text-2xl  md:text-3xl  font-bold text-primary ">
             Qualifications about the board members of Move Front
           </h2>
 
-          <p className="mt-5 max-w-3xl mx-auto text-gray-600 text-lg leading-relaxed">
+          <p className="mt-5 max-w-3xl mx-auto text-gray-600 text-base leading-relaxed">
             Move Front is guided by a dedicated team of professionals with
             expertise in social development, community leadership, counseling,
             education, administration, and sustainable development.
@@ -175,7 +175,7 @@ export default function About() {
 
               {/* Content */}
               <div className="p-6">
-                <span className="inline-block px-3 py-1 text-xs font-semibold bg-blue-50 text-blue-600 rounded-full mb-3">
+                <span className="inline-block px-3 py-1 text-base font-semibold bg-blue-50 text-primary rounded-full mb-3">
                   {member.position}
                 </span>
 
@@ -194,7 +194,7 @@ export default function About() {
                         key={idx}
                         className="flex items-start text-sm text-gray-600"
                       >
-                        <span className="text-blue-600 mr-2 mt-1">•</span>
+                        <span className="text-secondary mr-2 mt-1">•</span>
                         <span>{item}</span>
                       </li>
                     ))}

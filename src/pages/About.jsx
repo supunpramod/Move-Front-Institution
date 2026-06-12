@@ -1,7 +1,11 @@
 import Section from "../components/Section";
 import Card from "../components/Card";
 import orgImage from "../assets/org.png";
-
+import kawyaImage from "../assets/Kawya parami.jpeg";
+import NilushiniImage from "../assets/Nilushini Karunadasa.jpeg";
+import HeshanImage from "../assets/Heshan pieris.jpeg";
+import RanjalaImage from "../assets/Ranjala Fernando.jpeg";
+import SudarshanieImage from "../assets/Sudarshani Dissanayake.jpeg";
 
 
 const subObjectives = [
@@ -17,6 +21,72 @@ const subObjectives = [
   "Initiate, facilitate and strengthen the collective effort of civil society",
 ];
 
+
+const boardMembers = [
+  {
+    name: "Kawya Parami",
+    position: "Director",
+    image: kawyaImage,
+    qualifications: [
+      "Jayasinghe Arachchige Kawya Parami",
+      "G.C.E. Ordinary Level (2015)",
+      "G.C.E. Advanced Level (2018)",
+      "Computer Course (2024)",
+      "Diploma in English (SITC Campus)",
+      "Diploma in Sociology (SITC Campus)",
+    ],
+  },
+  {
+    name: "Nilushini Karunadasa",
+    position: "Director",
+    image: NilushiniImage,
+    qualifications: [
+      "Human Rights Diploma Course – University of Peradeniya (2025–Present)",
+      "Degree in Rural Leadership and Sustainable Agriculture – Asian Rural Institute, Japan (2010)",
+      "Diploma in Participatory Housing and Community Development – University of Peradeniya (2007–2009)",
+      "Computer Course (MS Office) – ATFA (2006–2007)",
+      "Video/Photography Course – FORUT Media Unit (2008)",
+      "G.C.E. Advanced Level (2005)",
+      "G.C.E. Ordinary Level (2001)",
+    ],
+  },
+  {
+    name: "Heshan Pieris",
+    position: "Director",
+    image: HeshanImage,
+    qualifications: [
+      "Handapangoda Mudalige Don Mindada Heshan Pieris",
+      "G.C.E. Ordinary Level (2015)",
+      "G.C.E. Advanced Level (2018)",
+      "Graphic Design Certificate Course",
+      "AutoCAD Interior Architecture Designer at FPL Outsource (5 Years)",
+      "Administration Department at TNR Enterprises (Currently Working)",
+    ],
+  },
+  {
+    name: "Ranjala Fernando",
+    position: "Director",
+    image: RanjalaImage,
+    qualifications: [
+      "Diploma in Counseling",
+      "Diploma in Drug Abuse Management",
+      "10 Years Working Experience in SIDA",
+      "Program Officer at Healthy Lanka (2018–2022)",
+    ],
+  },
+  {
+    name: "Sudarshanie Dissanayake",
+    position: "Director",
+    image: SudarshanieImage,
+    qualifications: [
+      "Diploma in Drama Therapy for Active Personal Counselling (Following) - Research Institute of Drama Therapy",
+      "Bachelor of Social Work (English Medium) - National Institute of Social Development, Seeduwa (2015–2019)",
+      "Diploma in Psychology - University of Kelaniya (2016–2017)",
+      "Diploma in Counseling - National Institute of Social Development, Seeduwa (2015–2017)",
+      "Counsellor Experience at Psychiatric Unit, Government Hospital Wathupitiwala (2017)",
+    ],
+  },
+];
 export default function About() {
   return (
     <div className="bg-white">
@@ -67,6 +137,76 @@ export default function About() {
           />
         </div>
       </Section>
+<section title = "Board of Directors"
+      id="organization"
+      className="bg-gray-50 py-20"
+    >
+      <div className="max-w-6xl   mx-auto px-4">
+        {/* Section Header */}
+        <div className="text-center mb-14">
+          
+
+          <h2 className="mt-4 text-4xl  font-bold text-primary ">
+            Qualifications about the board members of Move Front
+          </h2>
+
+          <p className="mt-5 max-w-3xl mx-auto text-gray-600 text-lg leading-relaxed">
+            Move Front is guided by a dedicated team of professionals with
+            expertise in social development, community leadership, counseling,
+            education, administration, and sustainable development.
+          </p>
+        </div>
+
+        {/* Directors Grid */}
+        <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+          {boardMembers.map((member, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300"
+            >
+              {/* Photo */}
+              <div className="h-80 bg-gray-200">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* Content */}
+              <div className="p-6">
+                <span className="inline-block px-3 py-1 text-xs font-semibold bg-blue-50 text-blue-600 rounded-full mb-3">
+                  {member.position}
+                </span>
+
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  {member.name}
+                </h3>
+
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-3">
+                    Qualifications & Experience
+                  </h4>
+
+                  <ul className="space-y-2">
+                    {member.qualifications.map((item, idx) => (
+                      <li
+                        key={idx}
+                        className="flex items-start text-sm text-gray-600"
+                      >
+                        <span className="text-blue-600 mr-2 mt-1">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
 
       <Section title="Organization" >
               <div className="grid md:grid-flow-row-dense-2 gap-4">
@@ -101,6 +241,9 @@ export default function About() {
           </Card>
         </div>
       </Section>
+
+
+      
 
       
     </div>

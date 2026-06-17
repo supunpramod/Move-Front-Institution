@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 
-import fb2 from "../assets/fb2.png";
-import pic2 from "../assets/pic2.png";
+import fb2 from "../assets/fb2.jpeg";
+import pic2 from "../assets/pic2.jpeg";
 import fb24 from "../assets/fb24.jpg";
-import pic4 from "../assets/pic4.png";
+import pic4 from "../assets/pic4.jpeg";
 import pic5 from "../assets/pic5.png";
 import pic6 from "../assets/pic6.png";
 import slider1 from "../assets/slider1.jpeg";

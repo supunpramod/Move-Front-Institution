@@ -1,6 +1,6 @@
 import Section from "../components/Section";
 import fb1 from "../assets/fb1.png";
-import fb2 from "../assets/fb2.png";
+import fb2 from "../assets/fb2.jpeg";
 import fb3 from "../assets/fb3.png";
 import fb4 from "../assets/fb4.jpg";
 import fb5 from "../assets/fb5.jpg";

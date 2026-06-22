@@ -5,6 +5,15 @@ import { useState } from "react";
 import Section from "../components/Section";
 import lif1 from "../assets/lif1.png";
 import lif2 from "../assets/lif2.png";
+import lif3 from "../assets/lif3.png";
+import lif4 from "../assets/lif4.png";
+import lif5 from "../assets/lif5.png";
+import lif6 from "../assets/lif6.png";
+import lif7 from "../assets/lif7.png";
+import lif8 from "../assets/lif8.png";
+import lif9 from "../assets/lif9.png";
+import lif10 from "../assets/lif10.png";
+
 
 export default function WhereWeWork() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -96,6 +105,101 @@ export default function WhereWeWork() {
                 src={lif2}
                 alt="Resource 2"
                 onClick={() => setSelectedImage(lif2)}
+                className="w-full h-64 object-cover rounded-lg cursor-pointer hover:scale-105 transition duration-300"
+              />
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-[#1c2674] mb-3">
+                Resource Document 03
+              </h3>
+              <img
+                src={lif3}
+                alt="Resource 3"
+                onClick={() => setSelectedImage(lif3)}
+                className="w-full h-64 object-cover rounded-lg cursor-pointer hover:scale-105 transition duration-300"
+              /> <br></br>
+              <img
+                src={lif4}
+                alt="Resource 3"
+                onClick={() => setSelectedImage(lif4)}
+                className="w-full h-64 object-cover rounded-lg cursor-pointer hover:scale-105 transition duration-300"
+              />
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-[#1c2674] mb-3">
+                Resource Document 04
+              </h3>
+              <img
+                src={lif5}
+                alt="Resource 3"
+                onClick={() => setSelectedImage(lif5)}
+                className="w-full h-64 object-cover rounded-lg cursor-pointer hover:scale-105 transition duration-300"
+              /> <br></br>
+              <img
+                src={lif6}
+                alt="Resource 3"
+                onClick={() => setSelectedImage(lif6)}
+                className="w-full h-64 object-cover rounded-lg cursor-pointer hover:scale-105 transition duration-300"
+              />
+            </div>
+          </div>
+
+
+          {/* Card 3 */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-[#1c2674] mb-3">
+                Resource Document 05
+              </h3>
+              <img
+                src={lif7}
+                alt="Resource 3"
+                onClick={() => setSelectedImage(lif7)}
+                className="w-full h-64 object-cover rounded-lg cursor-pointer hover:scale-105 transition duration-300"
+              /> 
+              
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-[#1c2674] mb-3">
+                Resource Document 06
+              </h3>
+              <img
+                src={lif8}
+                alt="Resource 3"
+                onClick={() => setSelectedImage(lif8)}
+                className="w-full h-64 object-cover rounded-lg cursor-pointer hover:scale-105 transition duration-300"
+              /> 
+              
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-[#1c2674] mb-3">
+                Resource Document 07
+              </h3>
+              <img
+                src={lif9}
+                alt="Resource 3"
+                onClick={() => setSelectedImage(lif9)}
+                className="w-full h-64 object-cover rounded-lg cursor-pointer hover:scale-105 transition duration-300"
+              /> <br></br>
+              <img
+                src={lif10}
+                alt="Resource 3"
+                onClick={() => setSelectedImage(lif10)}
                 className="w-full h-64 object-cover rounded-lg cursor-pointer hover:scale-105 transition duration-300"
               />
             </div>

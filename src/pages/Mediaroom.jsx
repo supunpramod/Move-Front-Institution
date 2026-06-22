@@ -252,7 +252,7 @@ export default function Mediaroom() {
     {/* Description */}
     <div className="mt-8 space-y-4 text-fon text-base sm:text-base leading-relaxed text-justify">
       <p>
-        Move Forward and Healthy Lanka are jointly implementing a programme to
+        Move Front and Healthy Lanka are jointly implementing a programme to
         strengthen ethnic and religious reconciliation in the Katana and Negombo
         Divisional Secretariat areas, within the Gampaha District.
       </p>

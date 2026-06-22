@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="md:col-span-2">
           <div className="font-bold text-lg text-primary">Move Front Institution (MFI)</div>
           <p className="text-sm text-white mt-2 max-w-md">
-            MFI is a social development organization (registration in process) facilitating community change
+            MFI is a social development organization facilitating community change
             towards total development, focusing on women, men, children, youth and disadvantaged communities.
           </p>
 

@@ -26,7 +26,7 @@ export default function Contact() {
           <div className="space-y-2 text-sm text-font">
             <p><span className="font-semibold">Address:</span> No 310 Oruwella Road Katuneriya Sri Lanka</p>
             <p><span className="font-semibold">Telephone:</span> 031 2252610, 0777559177, 0712007295</p>
-            <p><span className="font-semibold">Fax:</span> Not yet</p>
+            
             <p><span className="font-semibold">Email:</span> chamika1969@gmail.com</p>
           </div>
         </Card>

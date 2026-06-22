@@ -14,7 +14,7 @@ export default function Homeintro() {
             </h2>
 
             <p className="mt-6 text-fon text-sm leading-relaxed text-justify bg-white p-8 rounded-xl">
-              Move Front is a social development organization on process of
+              Move Front is a social development 
               registration as a non-forfeitable organization in Sri Lanka. We
               facilitate community change towards a total development. Our main
               focus is on providing a holistic transformation of Women, Men,

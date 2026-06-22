@@ -127,6 +127,12 @@ export default function WhatWeDo() {
         and mental health development.
       </li>
 
+      <li>
+  <strong>Healthy Lanka</strong> – 
+  Programs on alcohol and drug prevention, child rights and child protection,
+  mental health development, and gender equality.
+</li>
+
     </ul>
   </div>
 </Section>

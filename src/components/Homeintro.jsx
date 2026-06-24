@@ -14,19 +14,10 @@ export default function Homeintro() {
             </h2>
 
             <p className="mt-6 text-fon text-sm leading-relaxed text-justify bg-white p-8 rounded-xl">
-              Move Front is a social development 
-              registration as a non-forfeitable organization in Sri Lanka. We
-              facilitate community change towards a total development. Our main
-              focus is on providing a holistic transformation of Women, Men,
-              child, youth and disadvantaged communities by offering training,
-              empowerment, livelihood and exposure to life-changing innovations
-              in holistic approach. We endeavor to create an environment that
-              allows the fulfillment of the rights of every individual, family,
-              and society. Currently Move Front institution operating in
-              community intervention in 03 district and 24 villages, Puttlam,
-              Gampaha and Nuwaraeliya. We strive to reduce the impact of
-              inequality of gender, and gender base violence towards creating a
-              peaceful, happy, and healthy environment within the community.
+              Move Front is a non-profit social development organization registered in Sri Lanka. We are committed to empowering communities through holistic and sustainable development initiatives that create lasting positive change.
+Our primary focus is on the holistic transformation of women, men, children, youth, and disadvantaged communities. We achieve this by providing training, empowerment programs, livelihood opportunities, and exposure to innovative solutions that enhance individual and community well-being.
+We strive to create an inclusive environment where the rights of every individual, family, and community are respected, protected, and fulfilled.
+Currently, Move Front implements community development interventions across four districts—Puttalam,Colombo,Gampaha, and Nuwara Eliya—reaching 60 villages. Through these initiatives, we work to reduce gender inequality and prevent gender-based violence while promoting peaceful, healthy, and resilient communities where everyone has the opportunity to thrive.
             </p>
 
             <button

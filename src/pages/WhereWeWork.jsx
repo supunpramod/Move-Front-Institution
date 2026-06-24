@@ -24,7 +24,7 @@ export default function WhereWeWork() {
         Resources
       </h1>
 
-      <Section title="Partners and Networks" className="bg-secondary">
+      <Section title="" className="bg-secondary">
         <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
           <ul className="list-disc pl-5 text-slate-700 text-sm leading-relaxed space-y-3">
             
@@ -69,6 +69,12 @@ export default function WhereWeWork() {
   registered and recognized initiatives aligned with national development 
   priorities, including social protection, youth empowerment, and community 
   welfare programs.
+</li>
+
+      <li>
+  <strong>Healthy Lanka</strong> – 
+  Programs on alcohol and drug prevention, child rights and child protection,
+  mental health development, and gender equality.
 </li>
       
           </ul>

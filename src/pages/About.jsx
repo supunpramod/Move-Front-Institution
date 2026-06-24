@@ -28,9 +28,8 @@ const boardMembers = [
     position: "Director",
     image: kawyaImage,
     qualifications: [
-      "Jayasinghe Arachchige Kawya Parami",
-      "G.C.E. Ordinary Level (2015)",
-      "G.C.E. Advanced Level (2018)",
+      
+      
       "Computer Course (2024)",
       "Diploma in English (SITC Campus)",
       "Diploma in Sociology (SITC Campus)",
@@ -46,8 +45,7 @@ const boardMembers = [
       "Diploma in Participatory Housing and Community Development – University of Peradeniya (2007–2009)",
       "Computer Course (MS Office) – ATFA (2006–2007)",
       "Video/Photography Course – FORUT Media Unit (2008)",
-      "G.C.E. Advanced Level (2005)",
-      "G.C.E. Ordinary Level (2001)",
+      
     ],
   },
   {
@@ -55,9 +53,8 @@ const boardMembers = [
     position: "Director",
     image: HeshanImage,
     qualifications: [
-      "Handapangoda Mudalige Don Mindada Heshan Pieris",
-      "G.C.E. Ordinary Level (2015)",
-      "G.C.E. Advanced Level (2018)",
+      
+      
       "Graphic Design Certificate Course",
       "AutoCAD Interior Architecture Designer at FPL Outsource (5 Years)",
       "Administration Department at TNR Enterprises (Currently Working)",
